@@ -105,6 +105,14 @@ public class UserInterface extends SettingsPreferenceFragment implements
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.VEHICLE_MOTION_CUES, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.VEHICLE_MOTION_CUES_DOT_SIZE, 10, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.VEHICLE_MOTION_CUES_SENSITIVITY, 15, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.VEHICLE_MOTION_CUES_DOT_COUNT, 14, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.PULSE_ON_NEW_TRACKS, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,

@@ -192,4 +192,47 @@
         android:title="@string/theme_customization_wifi_icon_title"
         android:summary="@string/theme_customization_wifi_icon_summary"
         android:fragment="com.crdroid.settings.fragments.ui.WifiIcons"/> -->
+
+    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        android:key="vehicle_motion_cues"
+        android:icon="@drawable/ic_smart_pixels"
+        android:title="@string/vehicle_motion_cues_title"
+        android:summary="@string/vehicle_motion_cues_summary"
+        android:defaultValue="false" />
+
+    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+        android:key="vehicle_motion_cues_dot_size"
+        android:icon="@drawable/ic_smart_pixels"
+        android:title="@string/vehicle_motion_cues_dot_size_title"
+        android:summary="@string/vehicle_motion_cues_dot_size_summary"
+        android:defaultValue="10"
+        android:max="24"
+        settings:min="6"
+        settings:interval="1"
+        settings:units="dp"
+        android:dependency="vehicle_motion_cues" />
+
+    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+        android:key="vehicle_motion_cues_sensitivity"
+        android:icon="@drawable/ic_smart_pixels"
+        android:title="@string/vehicle_motion_cues_sensitivity_title"
+        android:summary="@string/vehicle_motion_cues_sensitivity_summary"
+        android:defaultValue="15"
+        android:max="35"
+        settings:min="5"
+        settings:interval="1"
+        settings:units="%"
+        android:dependency="vehicle_motion_cues" />
+
+    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+        android:key="vehicle_motion_cues_dot_count"
+        android:icon="@drawable/ic_smart_pixels"
+        android:title="@string/vehicle_motion_cues_dot_count_title"
+        android:summary="@string/vehicle_motion_cues_dot_count_summary"
+        android:defaultValue="14"
+        android:max="24"
+        settings:min="6"
+        settings:interval="2"
+        android:dependency="vehicle_motion_cues" />
+
 </PreferenceScreen>
