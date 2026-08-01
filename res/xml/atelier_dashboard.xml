@@ -26,6 +26,13 @@
             android:fragment="com.crdroid.settings.fragments.LockScreen" />
 
         <Preference
+            android:key="atelier_dynamic_island"
+            android:icon="@drawable/ic_dynamic_feed"
+            android:title="@string/status_bar_dynamic_island_title"
+            android:summary="@string/status_bar_dynamic_island_summary"
+            android:fragment="com.crdroid.settings.fragments.statusbar.DynamicIslandSettings" />
+
+        <Preference
             android:key="atelier_notifications"
             android:icon="@drawable/atelier_ic_notifications"
             android:title="@string/notifications_title"
