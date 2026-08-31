@@ -1430,6 +1430,42 @@
     <string name="qs_panel_style_classic">Classic style</string>
     <string name="qs_panel_style_coloros17">ColorOS 17</string>
 
+    <!-- Depth Wallpaper -->
+    <string name="depthwall_file_header_select_title">Select Depth wallpaper subject</string>
+    <string name="depthwall_file_header_select_summary">Select depth wallpaper subject image from storage.</string>
+    <string name="depthwall_wallpaper_enabled_title">Depth wallpaper</string>
+    <string name="depthwall_wallpaper_enabled_summary_tile">Apply depth effect
+to wallpaper</string>
+    <string name="depthwall_wallpaper_enabled_summary">Enable iOS-inspired depth wallpaper. Requires a subject image.</string>
+    <string name="depthwall_wallpaper_opacity_title">Depth wallpaper opacity</string>
+    <string name="depth_wallpaper_bottom_fade_title">Bottom fade</string>
+    <string name="depth_wallpaper_bottom_fade_summary">Fade out the wallpaper at the bottom</string>
+    <string name="depth_wallpaper_fade_curve_title">Fade curve</string>
+    <string name="depth_wallpaper_fade_curve_summary">Adjust the fade curve of the wallpaper</string>
+    <string name="depth_wallpaper_bottom_inset_title">Bottom inset</string>
+    <string name="depth_wallpaper_bottom_inset_summary">Adjust the inset of the wallpaper at the bottom</string>
+    <string name="depthwall_auto_subject_title">Depth wallpaper auto subject</string>
+    <string name="depthwall_auto_subject_summary">Automatically extract subject from wallpaper for depth effect</string>
+    <string name="depthwall_extract_now_title">Extract subject now</string>
+    <string name="depthwall_extract_now_summary">Trigger subject extraction from wallpaper immediately (Set wallpaper separatly for lockscreen)</string>
+    <string name="depthwall_extracting_toast">Extracting subject from wallpaper…</string>
+    <string name="depthwall_extraction_complete_toast">Subject extraction complete!</string>
+    <string name="depthwall_storage_permission_denied">Storage permission is required to automatically extract subjects from wallpapers.</string>
+    <string name="depthwall_clear_subject_title">Clear subject image</string>
+    <string name="depthwall_clear_subject_summary">Remove the current extracted or manually set subject</string>
+    <string name="depthwall_clear_subject_confirm_message">This will remove the current depth wallpaper subject image. Continue?</string>
+    <string name="depthwall_clear_subject_done_toast">Subject image cleared</string>
+    <string name="depthwall_spatial_effect_title">Spatial Effect</string>
+    <string name="depthwall_spatial_effect_summary">Adds an 3D spatial effect to the lockscreen depth wallpaper when you tilt your device.</string>
+    <string name="depthwall_spatial_sensitivity_title">Spatial Sensitivity</string>
+    <string name="depthwall_spatial_sensitivity_summary">Adjust the movement sensitivity of the 3D spatial effect</string>
+    <string name="dw_footer_text">The depth wallpaper feature, inspired by iOS\'s Wallpaper Subject Segmentation, enables overlaying of a subject above the lockscreen clock to show a wallpaper depth effect.
+
+To setup Depth Wallpaper Feature:
+1. Set a wallpaper with the subject or a background you want the subject to be above of.
+2. Select a subject image to track, this image will be overlaid above the lockscreen clock.
+3. Modify the offsets and opacity according to your needs.</string>
+
     <!-- Revamped bottom bar UI -->
     <string name="penguin_glass_tab_bars_title">Enable BottomBar UI Revamp</string>
     <string name="penguin_glass_tab_bars_summary">IOS Style BottomBar UI for google apps</string>
