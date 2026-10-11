@@ -102,6 +102,14 @@
         android:summary="@string/pocket_judge_summary"
         android:defaultValue="false" />
 
+    <!-- Revamped bottom bar UI -->
+    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+        android:key="penguin_glass_tab_bars"
+        android:icon="@drawable/ic_blur"
+        android:title="@string/penguin_glass_tab_bars_title"
+        android:summary="@string/penguin_glass_tab_bars_summary"
+        android:defaultValue="true" />
+
     <!-- Rotation button -->
     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
         android:key="enable_rotation_button"

@@ -1430,6 +1430,10 @@
     <string name="qs_panel_style_classic">Classic style</string>
     <string name="qs_panel_style_coloros17">ColorOS 17</string>
 
+    <!-- Revamped bottom bar UI -->
+    <string name="penguin_glass_tab_bars_title">Enable BottomBar UI Revamp</string>
+    <string name="penguin_glass_tab_bars_summary">IOS Style BottomBar UI for google apps</string>
+
     <!-- Liquid Glass -->
     <string name="liquid_glass_title">Liquid Glass</string>
     <string name="liquid_glass_summary">Frosted glass blur and dynamic rim highlights on Quick Settings</string>
