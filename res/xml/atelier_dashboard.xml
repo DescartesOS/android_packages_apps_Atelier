@@ -20,35 +20,35 @@
 
         <Preference
             android:key="atelier_notifications"
-            android:icon="@drawable/ic_notifications_filled"
+            android:icon="@drawable/atelier_ic_notifications"
             android:title="@string/notifications_title"
             android:summary="@string/atelier_notifications_summary"
             android:fragment="com.crdroid.settings.fragments.Notifications" />
 
         <Preference
             android:key="atelier_buttons"
-            android:icon="@drawable/ic_devices_other_filled"
+            android:icon="@drawable/atelier_ic_buttons"
             android:title="@string/button_title"
             android:summary="@string/atelier_buttons_summary"
             android:fragment="com.crdroid.settings.fragments.Buttons" />
 
         <Preference
             android:key="atelier_sound"
-            android:icon="@drawable/ic_volume_up_filled"
+            android:icon="@drawable/atelier_ic_sound"
             android:title="@string/sound_title"
             android:summary="@string/atelier_sound_summary"
             android:fragment="com.crdroid.settings.fragments.Sound" />
 
         <Preference
             android:key="atelier_misc"
-            android:icon="@drawable/ic_settings_cogs_filled"
+            android:icon="@drawable/atelier_ic_misc"
             android:title="@string/misc_title"
             android:summary="@string/atelier_misc_summary"
             android:fragment="com.crdroid.settings.fragments.Miscellaneous" />
 
         <Preference
             android:key="atelier_about"
-            android:icon="@drawable/ic_settings_about_device_filled"
+            android:icon="@drawable/atelier_ic_about"
             android:title="@string/about_crdroid"
             android:fragment="com.crdroid.settings.fragments.About" />
     </PreferenceCategory>

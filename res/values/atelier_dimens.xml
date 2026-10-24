@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: DescartesOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <dimen name="atelier_bento_height">300dp</dimen>
+    <dimen name="atelier_gap">6dp</dimen>
+    <dimen name="atelier_hero_icon">72dp</dimen>
+    <dimen name="atelier_tile_icon">52dp</dimen>
+</resources>

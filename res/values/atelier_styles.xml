@@ -5,41 +5,45 @@
 -->
 <resources>
     <style name="AtelierTile">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:minHeight">132dp</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">18dp</item>
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
         <item name="android:stateListAnimator">@animator/descartes_press</item>
     </style>
 
-    <style name="AtelierTileIcon">
-        <item name="android:layout_width">40dp</item>
-        <item name="android:layout_height">40dp</item>
+    <style name="AtelierTileShape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:stateListAnimator">@animator/atelier_shape_spin</item>
+    </style>
+
+    <style name="AtelierTileGlyph">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:importantForAccessibility">no</item>
     </style>
 
     <style name="AtelierTileTitle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">14dp</item>
-        <item name="android:fontFamily">variable-title-medium-emphasized</item>
-        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">variable-title-large-emphasized</item>
+        <item name="android:maxLines">2</item>
         <item name="android:ellipsize">end</item>
         <item name="android:textColor">@color/settingslib_materialColorOnSurface</item>
-        <item name="android:textSize">17sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="AtelierTileSummary">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
         <item name="android:maxLines">2</item>
         <item name="android:ellipsize">end</item>
         <item name="android:textColor">@color/settingslib_materialColorOnSurfaceVariant</item>
-        <item name="android:textSize">13sp</item>
+        <item name="android:textSize">14sp</item>
     </style>
 </resources>

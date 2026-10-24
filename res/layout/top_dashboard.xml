@@ -16,106 +16,205 @@
         android:id="@+id/atelier_version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/atelier_version_chip"
-        android:fontFamily="variable-label-large"
-        android:paddingHorizontal="12dp"
-        android:paddingVertical="6dp"
-        android:textColor="@color/settingslib_materialColorOnSecondaryContainer"
+        android:fontFamily="variable-label-large-emphasized"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/settingslib_materialColorOnTertiaryContainer"
         android:textSize="13sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/atelier_bento_height"
         android:layoutAnimation="@anim/descartes_stagger"
         android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/themes"
             style="@style/AtelierTile"
-            android:background="@drawable/top_menu_left_top">
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/atelier_tile_hero">
 
-            <ImageView
-                style="@style/AtelierTileIcon"
-                android:src="@drawable/ic_homepage_themes" />
+            <FrameLayout
+                android:layout_width="@dimen/atelier_hero_icon"
+                android:layout_height="@dimen/atelier_hero_icon">
+
+                <ImageView
+                    style="@style/AtelierTileShape"
+                    android:src="@drawable/descartes_shape_cookie"
+                    android:tint="@color/settingslib_materialColorPrimary" />
+
+                <ImageView
+                    style="@style/AtelierTileGlyph"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_themes"
+                    android:tint="@color/settingslib_materialColorOnPrimary" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
 
             <TextView
                 style="@style/AtelierTileTitle"
-                android:text="@string/ui_title" />
+                android:text="@string/ui_title"
+                android:textColor="@color/settingslib_materialColorOnPrimaryContainer"
+                android:textSize="24sp" />
 
             <TextView
                 style="@style/AtelierTileSummary"
-                android:text="@string/prismatic_summary" />
+                android:maxLines="3"
+                android:text="@string/prismatic_summary"
+                android:textColor="@color/settingslib_materialColorOnPrimaryContainer" />
         </LinearLayout>
 
-        <Space android:layout_width="4dp" android:layout_height="0dp" />
+        <Space
+            android:layout_width="@dimen/atelier_gap"
+            android:layout_height="0dp" />
 
         <LinearLayout
-            android:id="@+id/lockscreen"
-            style="@style/AtelierTile"
-            android:background="@drawable/top_menu_top_right">
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-            <ImageView
-                style="@style/AtelierTileIcon"
-                android:src="@drawable/ic_homepage_lockscreen" />
+            <LinearLayout
+                android:id="@+id/lockscreen"
+                style="@style/AtelierTile"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/atelier_tile_lock">
 
-            <TextView
-                style="@style/AtelierTileTitle"
-                android:text="@string/lockscreen_title" />
+                <FrameLayout
+                    android:layout_width="@dimen/atelier_tile_icon"
+                    android:layout_height="@dimen/atelier_tile_icon">
 
-            <TextView
-                style="@style/AtelierTileSummary"
-                android:text="@string/lockscreen_summary" />
+                    <ImageView
+                        style="@style/AtelierTileShape"
+                        android:src="@drawable/descartes_shape_clover"
+                        android:tint="@color/settingslib_materialColorTertiary" />
+
+                    <ImageView
+                        style="@style/AtelierTileGlyph"
+                        android:src="@drawable/ic_lockscreen"
+                        android:tint="@color/settingslib_materialColorOnTertiary" />
+                </FrameLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    style="@style/AtelierTileTitle"
+                    android:text="@string/lockscreen_title"
+                    android:textColor="@color/settingslib_materialColorOnTertiaryContainer" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="@dimen/atelier_gap" />
+
+            <LinearLayout
+                android:id="@+id/statusbar"
+                style="@style/AtelierTile"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/atelier_tile_status">
+
+                <FrameLayout
+                    android:layout_width="@dimen/atelier_tile_icon"
+                    android:layout_height="@dimen/atelier_tile_icon">
+
+                    <ImageView
+                        style="@style/AtelierTileShape"
+                        android:src="@drawable/descartes_shape_burst"
+                        android:tint="@color/settingslib_materialColorSecondary" />
+
+                    <ImageView
+                        style="@style/AtelierTileGlyph"
+                        android:src="@drawable/ic_status"
+                        android:tint="@color/settingslib_materialColorOnSecondary" />
+                </FrameLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    style="@style/AtelierTileTitle"
+                    android:text="@string/statusbar_title"
+                    android:textColor="@color/settingslib_materialColorOnSecondaryContainer" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
     <Space
         android:layout_width="0dp"
-        android:layout_height="4dp" />
+        android:layout_height="@dimen/atelier_gap" />
 
     <LinearLayout
+        android:id="@+id/controll"
+        style="@style/AtelierTile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layoutAnimation="@anim/descartes_stagger"
-        android:orientation="horizontal">
+        android:background="@drawable/atelier_tile_qs"
+        android:gravity="center_vertical"
+        android:minHeight="88dp"
+        android:orientation="horizontal"
+        android:paddingVertical="12dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp">
 
-        <LinearLayout
-            android:id="@+id/statusbar"
-            style="@style/AtelierTile"
-            android:background="@drawable/top_menu_left_bottom">
+        <FrameLayout
+            android:layout_width="@dimen/atelier_tile_icon"
+            android:layout_height="@dimen/atelier_tile_icon">
 
             <ImageView
-                style="@style/AtelierTileIcon"
-                android:src="@drawable/ic_homepage_status" />
+                style="@style/AtelierTileShape"
+                android:src="@drawable/descartes_shape_squircle"
+                android:tint="@color/settingslib_materialColorPrimary" />
+
+            <ImageView
+                style="@style/AtelierTileGlyph"
+                android:src="@drawable/ic_controll"
+                android:tint="@color/settingslib_materialColorOnPrimary" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <TextView
                 style="@style/AtelierTileTitle"
-                android:text="@string/statusbar_title" />
-
-            <TextView
-                style="@style/AtelierTileSummary"
-                android:text="@string/status_summary" />
-        </LinearLayout>
-
-        <Space android:layout_width="4dp" android:layout_height="0dp" />
-
-        <LinearLayout
-            android:id="@+id/controll"
-            style="@style/AtelierTile"
-            android:background="@drawable/top_menu_right_bottom">
-
-            <ImageView
-                style="@style/AtelierTileIcon"
-                android:src="@drawable/ic_homepage_controll" />
-
-            <TextView
-                style="@style/AtelierTileTitle"
+                android:layout_marginTop="0dp"
                 android:text="@string/quicksettings_title" />
 
             <TextView
                 style="@style/AtelierTileSummary"
+                android:maxLines="1"
                 android:text="@string/quick_settings_summary" />
         </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/atelier_chevron_bg"
+            android:duplicateParentState="true"
+            android:importantForAccessibility="no"
+            android:padding="10dp"
+            android:src="@drawable/atelier_arrow" />
     </LinearLayout>
 </LinearLayout>
