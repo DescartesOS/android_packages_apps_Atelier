@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="themes_title">Themes</string>
-    <string name="prismatic_summary">Design your icons, themes, colour</string>
-    <string name="lockscreen_summary">Customised your LockScreen</string>
-    <string name="quick_settings_title">Control Center</string>
-    <string name="quick_settings_summary">Customised QuickSettings</string>
-    <string name="status_title">Status Bar</string>
-    <string name="status_summary">Tuner, Battery, Logos</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="atelier_version">DescartesOS <xliff:g id="version" example="1.0">%1$s</xliff:g></string>
+    <string name="prismatic_summary">Themes, fonts, edge light, ambient display</string>
+    <string name="lockscreen_summary">Clock style, weather, pulse, media art</string>
+    <string name="quick_settings_summary">Header, brightness slider, battery</string>
+    <string name="status_summary">Icons, clock, network traffic, dynamic bar</string>
+    <string name="atelier_notifications_summary">Heads up, flashlight alerts, translucency</string>
+    <string name="atelier_buttons_summary">Power menu, hardware keys, torch</string>
+    <string name="atelier_sound_summary">Volume panel, haptics, call vibration</string>
+    <string name="atelier_misc_summary">Play Integrity, game space, gestures</string>
 </resources>

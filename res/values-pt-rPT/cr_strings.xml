@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2026 DescartesOS Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Definições crDroid</string>
+    <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Abrir as coisinhas boas</string>
     <string name="reset_settings_title">Repor definições</string>
     <string name="reset_settings_message">Isso irá redefinir a maioria das configurações do crdroid para seus valores padrão para o usuário atual. Você gostaria de continuar?</string>
@@ -74,18 +74,18 @@
     <string name="changelog_crdroid_title">Changelog atual</string>
     <string name="changelog_crdroid_summary">Ver as alterações na ROM instalada</string>
     <string name="changelog_crdroid_error">Não foi possível carregar o changelog</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Acerca de crDroid</string>
+    <!-- About DescartesOS -->
+    <string name="about_crdroid">Acerca de DescartesOS</string>
     <string name="about_device_name">Dispositivo</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Partilhar crDroid</string>
-    <string name="share_crdroid_summary">Deixar os outros saber da crDroid</string>
-    <string name="share_message">Conferir se #crDroidAndroid está disponível para o seu dispositivo @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Partilhar crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share DescartesOS -->
+    <string name="share_crdroid_title">Partilhar DescartesOS</string>
+    <string name="share_crdroid_summary">Deixar os outros saber da DescartesOS</string>
+    <string name="share_message">Conferir se #DescartesOSAndroid está disponível para o seu dispositivo @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Partilhar DescartesOS</string>
+    <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Nós gostamos de código aberto, confira-nos</string>
-    <string name="crdroid_telegram_title">Comunidade crDroid</string>
+    <string name="crdroid_telegram_title">Comunidade DescartesOS</string>
     <string name="crdroid_telegram_summary">Estamos no Telegram. Junte-se a nós!</string>
     <string name="crdroid_telegram_channel_title">Canal de Atualizações</string>
     <string name="crdroid_telegram_channel_summary">Seja notificado acerca de novas atualizações no Telegram</string>
@@ -95,16 +95,16 @@
     <string name="crdroid_translate_summary">Ajude-nos a traduzir a ROM para a sua língua!</string>
     <string name="crdroid_sponsor_summary">Visite nosso parceiro de host do site</string>
     <string name="crdroid_buildserversponsor_summary">Nós recomendamos os servidores deles, caso esteja interessado</string>
-    <!-- Support crDroid -->
+    <!-- Support DescartesOS -->
     <string name="crdroid_donate_preference_title">Apoia-nos</string>
     <string name="crdroid_donate_preference_summary">Doar para apoiar desenvolvimento</string>
-    <string name="crdroid_donate_title">crDroid precisa da sua ajuda!</string>
+    <string name="crdroid_donate_title">DescartesOS precisa da sua ajuda!</string>
     <string name="crdroid_donate_notification_text">Toque para saber mais</string>
-    <string name="crdroid_donate_message">crDroid Android é um projeto de código aberto que precisa da sua ajuda para manter o website online, os nossos servidores de build a funcionar e para fornecer compilações de alta qualidade para o seu dispositivo.\n\n
+    <string name="crdroid_donate_message">DescartesOS Android é um projeto de código aberto que precisa da sua ajuda para manter o website online, os nossos servidores de build a funcionar e para fornecer compilações de alta qualidade para o seu dispositivo.\n\n
 Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Pode descartar esta mensagem, mas o seu apoio significa muito para nós.</string>
     <string name="crdroid_donate_button">Doar agora</string>
     <string name="crdroid_later_button">Talvez para o mês que vem</string>
-    <string name="crdroid_channel_name">Notificações crDroid</string>
+    <string name="crdroid_channel_name">Notificações DescartesOS</string>
     <string name="crdroid_channel_desc">Notificações específicas do projeto</string>
     <string name="crdroid_donate_still_needed">Ainda precisamos de € %,d este mês. Ajude-nos a alcançar a nossa meta.</string>
     <string name="crdroid_donate_thank_you">Agradecemos todas as doações para este mês. Ainda pode contribuir e fazer a diferença!</string>
@@ -533,8 +533,8 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Pode descart
     <string name="qs_footer_show_power_menu_title">Atalho para o menu de energia</string>
     <string name="qs_footer_services_icon_title">Atalho para serviços em execução</string>
     <string name="qs_footer_settings_icon_title">Atalho para as definições</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Licença crDroid</string>
+    <!-- Device Info screen. DescartesOS legal. -->
+    <string name="crdroid_license_title">Licença DescartesOS</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Barra de controlo de brilho</string>
     <string name="qs_show_brightness_slider_title">Barra de controlo de brilho</string>
@@ -892,7 +892,7 @@ Uma pequena doação ajuda a manter este projeto vivo e a melhorar. Pode descart
     <string name="status_bar_logo_position_title">Posição do logótipo</string>
     <string name="status_bar_logo_style_title">Estilo do logótipo</string>
     <string name="status_bar_logo_style_summary">Selecione um logótipo personalizado a ser apresentado</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
+    <string name="status_bar_logo_style_crdroid">DescartesOS</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>

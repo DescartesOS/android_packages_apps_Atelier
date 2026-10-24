@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2026 DescartesOS Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Ayarları</string>
+    <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Çeşitli kişiselleştirmeler</string>
     <string name="reset_settings_title">Ayarları sıfırla</string>
     <string name="reset_settings_message">Bu mevcut kullanıcı için çoğu crdroid ayarlarını varsayılan değerlerine sıfırlar. Devam etmek ister misin?</string>
@@ -74,18 +74,18 @@
     <string name="changelog_crdroid_title">Mevcut değişiklikler</string>
     <string name="changelog_crdroid_summary">Yüklü ROM\'daki değişiklikleri görüntüleyin</string>
     <string name="changelog_crdroid_error">Değişiklikler yüklenemiyor</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">crDroid hakkında</string>
+    <!-- About DescartesOS -->
+    <string name="about_crdroid">DescartesOS hakkında</string>
     <string name="about_device_name">Cihaz</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">crDroid\'i paylaş</string>
-    <string name="share_crdroid_summary">Başkalarına crDroid hakkında bilgi verin</string>
-    <string name="share_message">Cihazınız için #crDroidAndroid\'in mevcut olup olmadığını kontrol edin @ https://crdroid.net/</string>
-    <string name="share_chooser_title">crDroid\'i paylaş</string>
-    <!-- Sites crDroid -->
+    <!-- Share DescartesOS -->
+    <string name="share_crdroid_title">DescartesOS\'i paylaş</string>
+    <string name="share_crdroid_summary">Başkalarına DescartesOS hakkında bilgi verin</string>
+    <string name="share_message">Cihazınız için #DescartesOSAndroid\'in mevcut olup olmadığını kontrol edin @ https://crdroid.net/</string>
+    <string name="share_chooser_title">DescartesOS\'i paylaş</string>
+    <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Kaynak kodumuzu görüntüleyin</string>
-    <string name="crdroid_telegram_title">crDroid topluluğu</string>
+    <string name="crdroid_telegram_title">DescartesOS topluluğu</string>
     <string name="crdroid_telegram_summary">Biz de telegramdayız. Bize katılın!</string>
     <string name="crdroid_telegram_channel_title">Güncelleme kanalı</string>
     <string name="crdroid_telegram_channel_summary">Telegram\'daki yeni yapılardan haberdar olun</string>
@@ -95,16 +95,16 @@
     <string name="crdroid_translate_summary">ROM\'u kendi dilinize çevirmek için bize yardım edin!</string>
     <string name="crdroid_sponsor_summary">Web sitesi barındırma ortağımızı ziyaret edin</string>
     <string name="crdroid_buildserversponsor_summary">Biriyle ilgileniyorsanız sunucularını öneririz</string>
-    <!-- Support crDroid -->
+    <!-- Support DescartesOS -->
     <string name="crdroid_donate_preference_title">Bizi destekle</string>
     <string name="crdroid_donate_preference_summary">Daha fazla gelişmeyi desteklemek için bağış yapın</string>
-    <string name="crdroid_donate_title">crDroid sizin yardımınıza ihtiyaç duyuyor!</string>
+    <string name="crdroid_donate_title">DescartesOS sizin yardımınıza ihtiyaç duyuyor!</string>
     <string name="crdroid_donate_notification_text">Daha fazla bilgi edinmek için dokunun</string>
-    <string name="crdroid_donate_message">crDroid Android, web sitesini çevrimiçi tutmak, derleme sunucularımızı çalışır durumda tutmak ve cihazınız için yüksek kaliteli derlemeler sunmak için yardımınıza ihtiyaç duyan açık kaynaklı bir projedir.\n\n
+    <string name="crdroid_donate_message">DescartesOS Android, web sitesini çevrimiçi tutmak, derleme sunucularımızı çalışır durumda tutmak ve cihazınız için yüksek kaliteli derlemeler sunmak için yardımınıza ihtiyaç duyan açık kaynaklı bir projedir.\n\n
 Küçük bir bağış, bu projenin devam etmesine ve gelişmesine yardımcı olur. Bu mesajı kapatabilirsiniz, ancak desteğiniz bizim için çok önemlidir.</string>
     <string name="crdroid_donate_button">Şimdi bağış yap</string>
     <string name="crdroid_later_button">Belki gelecek ay</string>
-    <string name="crdroid_channel_name">crDroid bildirimleri</string>
+    <string name="crdroid_channel_name">DescartesOS bildirimleri</string>
     <string name="crdroid_channel_desc">Projeye özgü bildirimler</string>
     <string name="crdroid_donate_still_needed">Bize bu ay hâlâ %,d € lazım. Hedefimize ulaşmamızda yardımcı olun.</string>
     <string name="crdroid_donate_thank_you">Bu ayki tüm bağışlar için minnettarız! Bize hâlâ katkıda bulunup bir fark yaratabilirsiniz.</string>
@@ -533,8 +533,8 @@ Küçük bir bağış, bu projenin devam etmesine ve gelişmesine yardımcı olu
     <string name="qs_footer_show_power_menu_title">Güç menüsü kısayolu</string>
     <string name="qs_footer_services_icon_title">Çalışan hizmetler kısayolu</string>
     <string name="qs_footer_settings_icon_title">Ayarlar kısayolu</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid yasal</string>
+    <!-- Device Info screen. DescartesOS legal. -->
+    <string name="crdroid_license_title">DescartesOS yasal</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Parlaklık kaydırıcısı</string>
     <string name="qs_show_brightness_slider_title">Parlaklık kaydırıcısı</string>
@@ -892,7 +892,7 @@ Küçük bir bağış, bu projenin devam etmesine ve gelişmesine yardımcı olu
     <string name="status_bar_logo_position_title">Logo konumu</string>
     <string name="status_bar_logo_style_title">Logo stili</string>
     <string name="status_bar_logo_style_summary">Gösterilecek özel logoyu seç</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
+    <string name="status_bar_logo_style_crdroid">DescartesOS</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Uzaylı</string>

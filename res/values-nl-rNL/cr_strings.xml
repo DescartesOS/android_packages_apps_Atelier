@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2026 DescartesOS Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Instellingen</string>
+    <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Goodies</string>
     <string name="reset_settings_title">Instellingen resetten</string>
     <string name="reset_settings_message">Dit zal de meeste crdroid instellingen terugzetten op de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
@@ -74,18 +74,18 @@
     <string name="changelog_crdroid_title">Huidige veranderingen</string>
     <string name="changelog_crdroid_summary">Bekijk wijzigingen in de geïnstalleerde rom</string>
     <string name="changelog_crdroid_error">Kan changelog niet laden</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Over crDroid</string>
+    <!-- About DescartesOS -->
+    <string name="about_crdroid">Over DescartesOS</string>
     <string name="about_device_name">Apparaat</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Deel crDroid</string>
-    <string name="share_crdroid_summary">Laat anderen weten over crDroid</string>
-    <string name="share_message">Kijk eens of #crDroidAndroid beschikbaar is voor uw apparaat @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Deel crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share DescartesOS -->
+    <string name="share_crdroid_title">Deel DescartesOS</string>
+    <string name="share_crdroid_summary">Laat anderen weten over DescartesOS</string>
+    <string name="share_message">Kijk eens of #DescartesOSAndroid beschikbaar is voor uw apparaat @ https://crdroid.net/</string>
+    <string name="share_chooser_title">Deel DescartesOS</string>
+    <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">Github</string>
     <string name="crdroid_source_summary">We houden van open source, neem een kijkje</string>
-    <string name="crdroid_telegram_title">crDroid gemeenschap</string>
+    <string name="crdroid_telegram_title">DescartesOS gemeenschap</string>
     <string name="crdroid_telegram_summary">Wij zitten op Telegram. Kom er bij!</string>
     <string name="crdroid_telegram_channel_title">Updatekanaal</string>
     <string name="crdroid_telegram_channel_summary">Ontvang een melding van nieuwe builds op Telegram</string>
@@ -95,16 +95,16 @@
     <string name="crdroid_translate_summary">Help met lokalisatie van de ROM in jouw taal!</string>
     <string name="crdroid_sponsor_summary">Bezoek onze website host partner</string>
     <string name="crdroid_buildserversponsor_summary">Indien interesse raden we zeker hun servers aan</string>
-    <!-- Support crDroid -->
+    <!-- Support DescartesOS -->
     <string name="crdroid_donate_preference_title">Steun ons</string>
     <string name="crdroid_donate_preference_summary">Doneer om verdere ontwikkeling te ondersteunen</string>
-    <string name="crdroid_donate_title">crDroid heeft je hulp nodig!</string>
+    <string name="crdroid_donate_title">DescartesOS heeft je hulp nodig!</string>
     <string name="crdroid_donate_notification_text">Tik om meer te weten te komen</string>
-    <string name="crdroid_donate_message">crDroid Android is een open-source project dat uw hulp nodig heeft om de website online te houden, onze build servers lopen en om hoogwaardige builds te leveren voor uw apparaat.\n\n
+    <string name="crdroid_donate_message">DescartesOS Android is een open-source project dat uw hulp nodig heeft om de website online te houden, onze build servers lopen en om hoogwaardige builds te leveren voor uw apparaat.\n\n
 Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt dit bericht negeren, maar uw steun betekent veel voor ons.</string>
     <string name="crdroid_donate_button">Doneer nu</string>
     <string name="crdroid_later_button">Misschien volgende maand</string>
-    <string name="crdroid_channel_name">crDroid meldingen</string>
+    <string name="crdroid_channel_name">DescartesOS meldingen</string>
     <string name="crdroid_channel_desc">Projectspecifieke notificaties</string>
     <string name="crdroid_donate_still_needed">We hebben deze maand nog €% nodig. Help ons ons ons ons doel te bereiken.</string>
     <string name="crdroid_donate_thank_you">We waarderen alle donaties voor deze maand. Je kunt nog steeds bijdragen en een verschil maken!</string>
@@ -533,8 +533,8 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="qs_footer_show_power_menu_title">Snelkoppeling Aan-/Uit menu</string>
     <string name="qs_footer_services_icon_title">Snelkoppeling voor actieve services</string>
     <string name="qs_footer_settings_icon_title">Snelkoppeling instellingen</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid legaal</string>
+    <!-- Device Info screen. DescartesOS legal. -->
+    <string name="crdroid_license_title">DescartesOS legaal</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Helderheidsregelaar</string>
     <string name="qs_show_brightness_slider_title">Helderheidsregelaar</string>
@@ -892,7 +892,7 @@ Een kleine donatie helpt dit project in leven te houden en te verbeteren. U kunt
     <string name="status_bar_logo_position_title">Logo positie</string>
     <string name="status_bar_logo_style_title">Logo stijl</string>
     <string name="status_bar_logo_style_summary">Selecteer aangepast logo om weer te geven</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
+    <string name="status_bar_logo_style_crdroid">DescartesOS</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>

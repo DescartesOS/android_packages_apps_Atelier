@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2026 DescartesOS Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">সিআরড্রয়েড সেটিংস</string>
+    <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">গুডনেস উন্মুক্ত করুন</string>
     <string name="reset_settings_title">সেটিংস রিসেট করুন</string>
     <string name="reset_settings_message">এটি বর্তমান ব্যবহারকারীর জন্য বেশিরভাগ crdroid সেটিংসকে তাদের ডিফল্ট মানগুলিতে পুনরায় সেট করবে। আপনি কি অবিরত করতে চান?</string>
@@ -74,18 +74,18 @@
     <string name="changelog_crdroid_title">বর্তমান চেঞ্জলগ</string>
     <string name="changelog_crdroid_summary">ইনস্টল করা রমে পরিবর্তন দেখুন</string>
     <string name="changelog_crdroid_error">পরিবর্তন লোড করতে অক্ষম</string>
-    <!-- About crDroid -->
+    <!-- About DescartesOS -->
     <string name="about_crdroid">CrDroid সম্পর্কে</string>
     <string name="about_device_name">ডিভাইস</string>
-    <!-- Share crDroid -->
+    <!-- Share DescartesOS -->
     <string name="share_crdroid_title">CrDroid শেয়ার করুন</string>
     <string name="share_crdroid_summary">CrDroid সম্পর্কে অন্যদের জানান</string>
-    <string name="share_message">crDroid আপনার ডিভাইসে আছে কিনা দেখুন</string>
+    <string name="share_message">DescartesOS আপনার ডিভাইসে আছে কিনা দেখুন</string>
     <string name="share_chooser_title">CrDroid শেয়ার করুন</string>
-    <!-- Sites crDroid -->
+    <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">গিটহাব</string>
     <string name="crdroid_source_summary">আমরা ওপেন সোর্স ভালবাসি, আমাদেরকে দেখুন</string>
-    <string name="crdroid_telegram_title">crDroid সম্প্রদায়</string>
+    <string name="crdroid_telegram_title">DescartesOS সম্প্রদায়</string>
     <string name="crdroid_telegram_summary">আমরা টেলিগ্রামে আছি। আমাদের সাথে যোগদান করুন!</string>
     <string name="crdroid_telegram_channel_title">আপডেট চ্যানেল</string>
     <string name="crdroid_telegram_channel_summary">টেলিগ্রামে নতুন বিল্ড সম্পর্কে বিজ্ঞপ্তি পান</string>
@@ -95,15 +95,15 @@
     <string name="crdroid_translate_summary">আপনার ভাষায় রমের স্থানীয়করণে সাহায্য করুন!</string>
     <string name="crdroid_sponsor_summary">আমাদের ওয়েবসাইট হোস্ট পার্টনার ভিজিট করুন</string>
     <string name="crdroid_buildserversponsor_summary">আমরা তাদের সার্ভার সুপারিশ যদি একটি আগ্রহী</string>
-    <!-- Support crDroid -->
+    <!-- Support DescartesOS -->
     <string name="crdroid_donate_preference_title">আমাদের সমর্থন করুন</string>
     <string name="crdroid_donate_preference_summary">আরও উন্নয়নে সহায়তা করার জন্য দান করুন</string>
-    <string name="crdroid_donate_title">crDroid এর আপনার সাহায্য প্রয়োজন!</string>
+    <string name="crdroid_donate_title">DescartesOS এর আপনার সাহায্য প্রয়োজন!</string>
     <string name="crdroid_donate_notification_text">আরও জানতে ট্যাপ করুন</string>
-    <string name="crdroid_donate_message">crDroid Android একটি ওপেন-সোর্স প্রজেক্ট, যার ওয়েবসাইট অনলাইন রাখতে, আমাদের বিল্ড সার্ভারগুলো চালু রাখতে এবং আপনার ডিভাইসের জন্য উচ্চ-মানের বিল্ড সরবরাহ করতে আপনার সাহায্যের প্রয়োজন।\n\n একটি ছোট অনুদান এই প্রজেক্টটিকে সচল রাখতে সাহায্য করে।</string>
+    <string name="crdroid_donate_message">DescartesOS Android একটি ওপেন-সোর্স প্রজেক্ট, যার ওয়েবসাইট অনলাইন রাখতে, আমাদের বিল্ড সার্ভারগুলো চালু রাখতে এবং আপনার ডিভাইসের জন্য উচ্চ-মানের বিল্ড সরবরাহ করতে আপনার সাহায্যের প্রয়োজন।\n\n একটি ছোট অনুদান এই প্রজেক্টটিকে সচল রাখতে সাহায্য করে।</string>
     <string name="crdroid_donate_button">এখনই দান করুন</string>
     <string name="crdroid_later_button">হয়তো আগামী মাসে</string>
-    <string name="crdroid_channel_name">crDroid বিজ্ঞপ্তি</string>
+    <string name="crdroid_channel_name">DescartesOS বিজ্ঞপ্তি</string>
     <string name="crdroid_channel_desc">প্রকল্প নির্দিষ্ট বিজ্ঞপ্তি</string>
     <string name="crdroid_donate_still_needed">এই মাসে আমাদের এখনও €0,00 প্রয়োজন। আমাদের লক্ষ্য পূরণে সাহায্য করুন।</string>
     <string name="crdroid_donate_thank_you">আমরা এই মাসের জন্য সব অনুদান প্রশংসা করি. আপনি এখনও অবদান রাখতে পারেন এবং একটি পার্থক্য করতে পারেন!</string>
@@ -532,8 +532,8 @@
     <string name="qs_footer_show_power_menu_title">পাওয়ার মেনু শর্টকাট</string>
     <string name="qs_footer_services_icon_title">চলমান পরিষেবার শর্টকাট</string>
     <string name="qs_footer_settings_icon_title">সেটিংস শর্টকাট</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid আইনি</string>
+    <!-- Device Info screen. DescartesOS legal. -->
+    <string name="crdroid_license_title">DescartesOS আইনি</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">ব্রাইটনেস স্লাইডার/উজ্জ্বলতা বার</string>
     <string name="qs_show_brightness_slider_title">ব্রাইটনেস স্লাইডার/উজ্জ্বলতা বার</string>

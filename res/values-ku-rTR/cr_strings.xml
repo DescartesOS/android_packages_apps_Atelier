@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2026 DescartesOS Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">mîhengên crDroid</string>
+    <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Xwezî veke</string>
     <string name="reset_settings_title">Mîhengan vegerîne</string>
     <string name="reset_settings_message">Ev ê piraniya mîhengên crdroid-ê li nirxên xweyên xwerû ji bo bikarhênerê heyî vegerîne. Ma hûn dixwazin berdewam bikin?</string>
@@ -74,18 +74,18 @@
     <string name="changelog_crdroid_title">Current changelog</string>
     <string name="changelog_crdroid_summary">View changes in the ROM installed</string>
     <string name="changelog_crdroid_error">Unable to load changelog</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">دەربارەی crDroid</string>
+    <!-- About DescartesOS -->
+    <string name="about_crdroid">دەربارەی DescartesOS</string>
     <string name="about_device_name">Hacet</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">هاوبەشکردنی crDroid</string>
-    <string name="share_crdroid_summary">Let others know about crDroid</string>
-    <string name="share_message">Check out if #crDroidAndroid is available for your device @ https://crdroid.net/</string>
-    <string name="share_chooser_title">هاوبەشکردنی crDroid</string>
-    <!-- Sites crDroid -->
+    <!-- Share DescartesOS -->
+    <string name="share_crdroid_title">هاوبەشکردنی DescartesOS</string>
+    <string name="share_crdroid_summary">Let others know about DescartesOS</string>
+    <string name="share_message">Check out if #DescartesOSAndroid is available for your device @ https://crdroid.net/</string>
+    <string name="share_chooser_title">هاوبەشکردنی DescartesOS</string>
+    <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">گیتهەب</string>
     <string name="crdroid_source_summary">We love open source, check us out</string>
-    <string name="crdroid_telegram_title">crDroid community</string>
+    <string name="crdroid_telegram_title">DescartesOS community</string>
     <string name="crdroid_telegram_summary">We are on telegram. Join us!</string>
     <string name="crdroid_telegram_channel_title">Updates channel</string>
     <string name="crdroid_telegram_channel_summary">Get notified of new builds on Telegram</string>
@@ -95,12 +95,12 @@
     <string name="crdroid_translate_summary">Help with localisation of ROM in your language!</string>
     <string name="crdroid_sponsor_summary">Visit our website host partner</string>
     <string name="crdroid_buildserversponsor_summary">ئەگەر پێویستت بە سێرڤەر هەبوو، پێشنیاری سێرڤەرەکانی ئەوان دەکەین</string>
-    <!-- Support crDroid -->
+    <!-- Support DescartesOS -->
     <string name="crdroid_donate_preference_title">پشتگیریمان بکە</string>
     <string name="crdroid_donate_preference_summary">هاوکاریمان بکە بۆ پەرەپێدانی داهاتوو</string>
     <string name="crdroid_donate_title">سی ئاڕ درۆید پێویستی بە هاوکاریەکانتە!</string>
     <string name="crdroid_donate_notification_text">پەنجە لێرە بدە بۆ زانیاری زیاتر</string>
-    <string name="crdroid_donate_message">سیستەمی crDroid Android پڕۆژەیەکی سەرچاوە کراوەیە کە پێویستی بە هاوکاری تۆیە بۆ هێشتنەوەی ماڵپەڕەکە بە ئۆنڵاین، کارپێکردنی سێرڤەرەکانی بنیادنان Build servers، و دابینکردنی وەشانە کوالێتی بەرزەکان بۆ ئامێرەکەت.\n\nبەخشینێکی بچووک یارمەتیدەر دەبێت بۆ زیندوو هێشتنەوە و باشترکردنی ئەم پڕۆژەیە. دەتوانیت ئەم نامەیە لابدەیت، بەڵام پاڵپشتییەکەت مانایەکی زۆری هەیە بۆ ئێمە.</string>
+    <string name="crdroid_donate_message">سیستەمی DescartesOS Android پڕۆژەیەکی سەرچاوە کراوەیە کە پێویستی بە هاوکاری تۆیە بۆ هێشتنەوەی ماڵپەڕەکە بە ئۆنڵاین، کارپێکردنی سێرڤەرەکانی بنیادنان Build servers، و دابینکردنی وەشانە کوالێتی بەرزەکان بۆ ئامێرەکەت.\n\nبەخشینێکی بچووک یارمەتیدەر دەبێت بۆ زیندوو هێشتنەوە و باشترکردنی ئەم پڕۆژەیە. دەتوانیت ئەم نامەیە لابدەیت، بەڵام پاڵپشتییەکەت مانایەکی زۆری هەیە بۆ ئێمە.</string>
     <string name="crdroid_donate_button">هاوکاری بنێرە</string>
     <string name="crdroid_later_button">لەوانەیە مانگی داهاتوو</string>
     <string name="crdroid_channel_name">ئاگاداری سی ئاڕ درۆید</string>
@@ -532,8 +532,8 @@
     <string name="qs_footer_show_power_menu_title">Power menu shortcut</string>
     <string name="qs_footer_services_icon_title">Running services shortcut</string>
     <string name="qs_footer_settings_icon_title">Settings shortcut</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid legal</string>
+    <!-- Device Info screen. DescartesOS legal. -->
+    <string name="crdroid_license_title">DescartesOS legal</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Brightness slider</string>
     <string name="qs_show_brightness_slider_title">تەختەی ڕۆشنایی</string>
@@ -891,7 +891,7 @@
     <string name="status_bar_logo_position_title">شوێنی لۆگۆ</string>
     <string name="status_bar_logo_style_title">شێوازی لۆگۆ</string>
     <string name="status_bar_logo_style_summary">Select custom logo to be displayed</string>
-    <string name="status_bar_logo_style_crdroid">crDroid</string>
+    <string name="status_bar_logo_style_crdroid">DescartesOS</string>
     <string name="status_bar_logo_style_android">ئەندرۆید</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_alien">Alien</string>
