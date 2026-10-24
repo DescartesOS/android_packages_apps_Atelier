@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="themes_title">Themes</string>
+    <string name="prismatic_summary">Design your icons, themes, colour</string>
+    <string name="lockscreen_summary">Customised your LockScreen</string>
+    <string name="quick_settings_title">Control Center</string>
+    <string name="quick_settings_summary">Customised QuickSettings</string>
+    <string name="status_title">Status Bar</string>
+    <string name="status_summary">Tuner, Battery, Logos</string>
+</resources>
