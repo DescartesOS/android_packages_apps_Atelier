@@ -7,6 +7,7 @@ package com.crdroid.settings
 
 import android.app.AlertDialog
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.os.SystemProperties
 import android.view.Menu
@@ -50,6 +51,13 @@ class crDroidSettingsLayout : SettingsPreferenceFragment() {
                     SystemProperties.get("ro.crdroid.build.version")))
         QUICK_ACCESS.forEach { (viewId, destination) ->
             preference.findViewById<android.view.View>(viewId)?.setOnClickListener {
+                if (viewId == R.id.lockscreen) {
+                    val galleryIntent = Intent("com.android.wallpaper.action.LOCK_SCREENS")
+                    if (requireContext().packageManager.resolveActivity(galleryIntent, 0) != null) {
+                        startActivity(galleryIntent)
+                        return@setOnClickListener
+                    }
+                }
                 SubSettingLauncher(requireContext())
                     .setDestination(destination.first.name)
                     .setTitleRes(destination.second)

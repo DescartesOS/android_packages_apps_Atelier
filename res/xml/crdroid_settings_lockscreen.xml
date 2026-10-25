@@ -20,6 +20,20 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
+        android:key="lockscreen_gallery_category"
+        android:title="@string/lockscreen_gallery_title">
+
+        <Preference
+            android:key="lockscreen_gallery"
+            android:icon="@drawable/ic_lockscreen"
+            android:title="@string/lockscreen_gallery_title"
+            android:summary="@string/lockscreen_gallery_summary">
+            <intent
+                android:action="com.android.wallpaper.action.LOCK_SCREENS" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lockscreen_clock_category"
         android:title="@string/qs_clock_title">
 
