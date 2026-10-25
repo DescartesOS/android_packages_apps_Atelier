@@ -136,16 +136,17 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     }
 
     private void updatePanelStylePrefs(int panelStyle) {
-        boolean isClassic = panelStyle == 1;
+        boolean isCard = panelStyle == 0;
+        boolean isLabelStyle = panelStyle == 1 || panelStyle == 5;
 
         if (mQsTileShape != null) {
-            mQsTileShape.setVisible(!isClassic);
+            mQsTileShape.setVisible(isCard);
         }
         if (mQsTileIconShape != null) {
-            mQsTileIconShape.setVisible(isClassic);
+            mQsTileIconShape.setVisible(isLabelStyle);
         }
         if (mQsTileLabelHide != null) {
-            mQsTileLabelHide.setVisible(isClassic);
+            mQsTileLabelHide.setVisible(isLabelStyle);
         }
     }
 
@@ -165,6 +166,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             return true;
         } else if (preference == mQsPanelStyle) {
             int value = Integer.parseInt((String) newValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_PANEL_STYLE, value, UserHandle.USER_CURRENT);
             updatePanelStylePrefs(value);
             return true;
         }
@@ -193,6 +196,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_TILE_SHAPE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putIntForUser(resolver,
+                "penguin_liquid_glass", 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,

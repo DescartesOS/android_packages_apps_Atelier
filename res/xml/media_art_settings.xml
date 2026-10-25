@@ -58,4 +58,28 @@
         android:min="0"
         android:defaultValue="200"
         android:dependency="ls_media_art_enabled" />
+    <PreferenceCategory
+        android:title="@string/ls_media_expand_title">
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="ls_media_expand"
+            android:title="@string/ls_media_expand_title"
+            android:summary="@string/ls_media_expand_summary"
+            android:defaultValue="true" />
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="ls_media_expanded"
+            android:title="@string/ls_media_expanded_title"
+            android:summary="@string/ls_media_expanded_summary"
+            android:dependency="ls_media_expand"
+            android:defaultValue="true" />
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="ls_media_motion_art"
+            android:title="@string/ls_media_motion_art_title"
+            android:summary="@string/ls_media_motion_art_summary"
+            android:dependency="ls_media_expand"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

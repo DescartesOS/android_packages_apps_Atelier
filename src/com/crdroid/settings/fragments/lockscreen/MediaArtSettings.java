@@ -52,6 +52,12 @@ public class MediaArtSettings extends SettingsPreferenceFragment {
                 Settings.System.LS_MEDIA_ART_BLUR_LEVEL, 200, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.AMBIENT_MEDIA_ART_ENABLED, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                "ls_media_expand", 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                "ls_media_expanded", 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                "ls_media_motion_art", 1, UserHandle.USER_CURRENT);
     }
 
     @Override
