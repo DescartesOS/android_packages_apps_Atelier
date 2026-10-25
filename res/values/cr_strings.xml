@@ -1743,6 +1743,7 @@
     <string name="settings_icon_corner_style_title">Settings icons corner style</string>
     <string name="settings_icon_corner_style_circle">Circle</string>
     <string name="settings_icon_corner_style_rounded_square">Rounded square</string>
+    <string name="settings_icon_corner_style_shapes">Expressive shapes</string>
     <string name="settings_icon_random_colors_title">Random colors</string>
     <string name="settings_icon_random_colors_summary">Use random colors for each icon</string>
 

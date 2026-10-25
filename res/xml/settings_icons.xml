@@ -40,6 +40,6 @@
          android:title="@string/settings_icon_corner_style_title"
          android:entries="@array/settings_corner_style_entries"
          android:entryValues="@array/settings_corner_style_values"
-         android:defaultValue="0" />
+         android:defaultValue="2" />
  
  </PreferenceScreen>

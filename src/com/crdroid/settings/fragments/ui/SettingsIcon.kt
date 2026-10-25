@@ -33,7 +33,7 @@ class SettingsIcon : SettingsPreferenceFragment() {
             Settings.System.putIntForUser(resolver,
                     "settings_icon_random_colors", 0, UserHandle.USER_CURRENT)
             Settings.System.putIntForUser(resolver,
-                    "settings_icon_corner_style", 0, UserHandle.USER_CURRENT)
+                    "settings_icon_corner_style", 2, UserHandle.USER_CURRENT)
         }
     }
 }
