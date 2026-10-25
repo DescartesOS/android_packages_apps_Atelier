@@ -85,32 +85,9 @@
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">אנחנו אוהבים מקור פתוח, בדוק אותנו</string>
-    <string name="crdroid_telegram_title">קהילת DescartesOS</string>
-    <string name="crdroid_telegram_summary">אנחנו גם בטלגרם, תצטרף אלינו!</string>
-    <string name="crdroid_telegram_channel_title">ערוץ עדכונים</string>
-    <string name="crdroid_telegram_channel_summary">קבל הודעה בטלגרם אודות עדכונים חדשים</string>
-    <string name="crdroid_website_title">אתר רשמי</string>
-    <string name="crdroid_website_summary">בקר באתר האינטרנט הרשמי</string>
-    <string name="crdroid_translate_title">תרגומים</string>
-    <string name="crdroid_translate_summary">עזור לנו להתאים את ה-ROM לשפה שלך!</string>
-    <string name="crdroid_sponsor_summary">בקרו במארח האתרים השותף שלנו</string>
-    <string name="crdroid_buildserversponsor_summary">אנו ממליצים על השרתים שלהם, את יש לך עניין בכזה</string>
     <!-- Support DescartesOS -->
-    <string name="crdroid_donate_preference_title">תמוך בנו</string>
-    <string name="crdroid_donate_preference_summary">תמוך בנו כדי לאפשר המשך פיתוח עתידי</string>
-    <string name="crdroid_donate_title">DescartesOS זקוק לעזרתך!</string>
-    <string name="crdroid_donate_notification_text">געו כדי ללמוד עוד</string>
-    <string name="crdroid_donate_message">DescartesOS Android הוא פרוייקט קוד פתוחהזקוק לעזרתך כדי להמשיך ולהחזיק את האתר פעיל, את שרתי הגירסאות \"באוויר\" ולספק גרסאות באיכות גבוהה למכשיר שלך.\n\n
-תרומה קטנה עוזרת לשמור את הפרוייקט חי ומשתפר. ניתן לסגור הודעה זו, אך תמיכתך משמעותית מאד עבורינו.</string>
-    <string name="crdroid_donate_button">תרומה כעת</string>
     <string name="crdroid_later_button">Maybe next month</string>
-    <string name="crdroid_channel_name">התראות DescartesOS</string>
     <string name="crdroid_channel_desc">התראות פרטניות לפרוייקט</string>
-    <string name="crdroid_donate_still_needed">אנחנו עדיין זקוקים ל- €%,d החודש. עיזרו לנו להגיע ליעד.</string>
-    <string name="crdroid_donate_thank_you">אנחנו מודים ומעריכים את כל התרומות שניתנו החודש. באפשרותכם עדיין לתרום ולהשפיע!</string>
-    <string name="crdroid_donate_raised">€%,d נתרמו</string>
-    <string name="crdroid_donate_total">מתוך היעד של €%,d</string>
-    <string name="crdroid_donate_loading">מעדכנים את ההתקדמות...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">עדכונים</string>
     <string name="crdroid_update_summary">בדקו והורידו את העדכון האחרון</string>

@@ -85,32 +85,9 @@
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">我们热爱开源，来看看我们的代码吧。</string>
-    <string name="crdroid_telegram_title">DescartesOS 社区</string>
-    <string name="crdroid_telegram_summary">我们有 TG 群。加入我们！</string>
-    <string name="crdroid_telegram_channel_title">更新频道</string>
-    <string name="crdroid_telegram_channel_summary">在 Telegram 上获取更新通知</string>
-    <string name="crdroid_website_title">官方网站</string>
-    <string name="crdroid_website_summary">访问我们的官方网站</string>
-    <string name="crdroid_translate_title">翻译</string>
-    <string name="crdroid_translate_summary">帮助用您的语言本地化 ROM！</string>
-    <string name="crdroid_sponsor_summary">访问我们的网站托管合作伙伴</string>
-    <string name="crdroid_buildserversponsor_summary">我们十分推荐这些服务器提供商</string>
     <!-- Support DescartesOS -->
-    <string name="crdroid_donate_preference_title">支持我们</string>
-    <string name="crdroid_donate_preference_summary">捐赠以支持开发</string>
-    <string name="crdroid_donate_title">DescartesOS 需要您的帮助！</string>
-    <string name="crdroid_donate_notification_text">点击了解更多</string>
-    <string name="crdroid_donate_message">DescartesOS Android 是一个开源项目，需要您的帮助才能保持网站上线。 我们的构建服务器运行，并为您的设备提供高质量的构建。\n\n
-小额捐款有助于保持这个项目的活力和改进。 您可以忽略此消息，但您的支持对我们有很大的意义。</string>
-    <string name="crdroid_donate_button">立即捐助</string>
     <string name="crdroid_later_button">也许下个月</string>
-    <string name="crdroid_channel_name">DescartesOS 通知</string>
     <string name="crdroid_channel_desc">项目特定通知</string>
-    <string name="crdroid_donate_still_needed">我们本月仍然需要%d。帮助我们实现我们的目标。</string>
-    <string name="crdroid_donate_thank_you">我们感谢本月份的所有捐款。你仍然可以作出贡献并有所作为！</string>
-    <string name="crdroid_donate_raised">已筹得%,d</string>
-    <string name="crdroid_donate_total">为 %,d 目标</string>
-    <string name="crdroid_donate_loading">正在更新进度…</string>
     <!-- OTA -->
     <string name="crdroid_update_title">更新</string>
     <string name="crdroid_update_summary">检查并下载最新更新</string>

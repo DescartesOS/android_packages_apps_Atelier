@@ -80,32 +80,9 @@
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">கிட்ஹப்</string>
     <string name="crdroid_source_summary">நாங்கள் திறந்த மூலத்தை விரும்புகிறோம், எங்களைப் பார்க்கவும்</string>
-    <string name="crdroid_telegram_title">DescartesOS சமூகம்</string>
-    <string name="crdroid_telegram_summary">நாங்கள் தந்தியில் இருக்கிறோம்.  எங்களுடன் சேர்!</string>
-    <string name="crdroid_telegram_channel_title">சேனலைப் புதுப்பிக்கிறது</string>
-    <string name="crdroid_telegram_channel_summary">டெலிகிராமில் புதிய உருவாக்கங்கள் பற்றிய அறிவிப்பைப் பெறுங்கள்</string>
-    <string name="crdroid_website_title">அதிகாரப்பூர்வ வலைத்தளம்</string>
-    <string name="crdroid_website_summary">எங்கள் அதிகாரப்பூர்வ வலைத்தளத்தைப் பார்வையிடவும்</string>
-    <string name="crdroid_translate_title">மொழிபெயர்ப்புகள்</string>
-    <string name="crdroid_translate_summary">இந்த ROM-ஐ உங்கள் மொழியில் மொழிபெயர்க்க உதவிடுங்கள்!</string>
-    <string name="crdroid_sponsor_summary">எங்கள் Website Host Partner-ஐ பார்வையிட</string>
-    <string name="crdroid_buildserversponsor_summary">இதில் ஆர்வம் இருந்தால், நாங்கள் அவர்களின் சேவையகங்களைப் பரிந்துரைக்கிறோம்</string>
     <!-- Support DescartesOS -->
-    <string name="crdroid_donate_preference_title">எங்களை ஆதரியுங்கள்</string>
-    <string name="crdroid_donate_preference_summary">வளர்ச்சிக்கு உதவிட நன்கொடை அளியுங்கள்</string>
-    <string name="crdroid_donate_title">DescartesOS needs your help!</string>
-    <string name="crdroid_donate_notification_text">Tap to learn more</string>
-    <string name="crdroid_donate_message">DescartesOS Android is an open-source project which needs your help to keep website online, our build servers running, and to deliver high-quality builds for your device.\n\n
-A small donation helps keep this project alive and improving. You can dismiss this message, but your support means a lot to us.</string>
-    <string name="crdroid_donate_button">Donate now</string>
     <string name="crdroid_later_button">Maybe next month</string>
-    <string name="crdroid_channel_name">DescartesOS notifications</string>
     <string name="crdroid_channel_desc">Project specific notifications</string>
-    <string name="crdroid_donate_still_needed">We still need €%,d this month. Help us reach our goal.</string>
-    <string name="crdroid_donate_thank_you">We appreciate all donations for this month. You can still contribute and make a difference!</string>
-    <string name="crdroid_donate_raised">€%,d raised</string>
-    <string name="crdroid_donate_total">of €%,d goal</string>
-    <string name="crdroid_donate_loading">Updating progress...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">புதுப்பிப்புகள்</string>
     <string name="crdroid_update_summary">Check for OTA update and links for your device</string>

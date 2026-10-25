@@ -85,32 +85,9 @@
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Ne plac sursele deschise, vezi mai multe</string>
-    <string name="crdroid_telegram_title">Comunitatea DescartesOS</string>
-    <string name="crdroid_telegram_summary">Suntem pe Telegram. Vino alături de noi!</string>
-    <string name="crdroid_telegram_channel_title">Canal actualizări</string>
-    <string name="crdroid_telegram_channel_summary">Primește notificări despre noile creații pe Telegram</string>
-    <string name="crdroid_website_title">Site-ul oficial</string>
-    <string name="crdroid_website_summary">Vizitați site-ul nostru oficial</string>
-    <string name="crdroid_translate_title">Traduceri</string>
-    <string name="crdroid_translate_summary">Ajută la localizarea ROM-ului în limba ta!</string>
-    <string name="crdroid_sponsor_summary">Vizitați partenerul nostru gazdă</string>
-    <string name="crdroid_buildserversponsor_summary">Le recomandăm serverele dacă eşti interesat de unul</string>
     <!-- Support DescartesOS -->
-    <string name="crdroid_donate_preference_title">Susține-ne</string>
-    <string name="crdroid_donate_preference_summary">Donează pentru a sprijini dezvoltarea ulterioară</string>
-    <string name="crdroid_donate_title">DescartesOS are nevoie de ajutorul tău!</string>
-    <string name="crdroid_donate_notification_text">Apasă pentru a afla mai multe</string>
-    <string name="crdroid_donate_message">DescartesOS Android este un proiect open-source care are nevoie de ajutorul tău pentru a păstra site-ul online, serverele noastre de compilare rulează și oferă un ROM de înaltă calitate pentru dispozitivul tău.\n\n
-O donație mică ajută la menținerea acestui proiect în viață și la îmbunătățirea lui. Poți respinge acest mesaj, dar suportul tău înseamnă mult pentru noi.</string>
-    <string name="crdroid_donate_button">Donează acum</string>
     <string name="crdroid_later_button">Poate luna viitoare</string>
-    <string name="crdroid_channel_name">Notificări DescartesOS</string>
     <string name="crdroid_channel_desc">Notificări specifice proiectului</string>
-    <string name="crdroid_donate_still_needed">Avem încă nevoie de €%,d în această lună. Ajută-ne să ne atingem obiectivul.</string>
-    <string name="crdroid_donate_thank_you">Apreciem toate donațiile pentru această lună. Încă mai poți contribui și face diferență!</string>
-    <string name="crdroid_donate_raised">€%,d adunați</string>
-    <string name="crdroid_donate_total">din €%,d target</string>
-    <string name="crdroid_donate_loading">Actualizarea progresului...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Actualizări</string>
     <string name="crdroid_update_summary">Verifică și descarcă ultima actualizare</string>

@@ -85,32 +85,9 @@
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">على موقع Github</string>
     <string name="crdroid_source_summary">نحن نحب المصدر المفتوح، تحقق منا</string>
-    <string name="crdroid_telegram_title">مجتمع DescartesOS</string>
-    <string name="crdroid_telegram_summary">نحن على تليجرام. انضم إلينا!</string>
-    <string name="crdroid_telegram_channel_title">قناة التحديثات</string>
-    <string name="crdroid_telegram_channel_summary">احصل على إشعارات بالتحديثات الجديدة على تيليجرام</string>
-    <string name="crdroid_website_title">الموقع الرسمي</string>
-    <string name="crdroid_website_summary">زيارة موقعنا الرسمي</string>
-    <string name="crdroid_translate_title">الترجمة</string>
-    <string name="crdroid_translate_summary">المساعدة في تعريب الروم بلغتك!</string>
-    <string name="crdroid_sponsor_summary">قم بزيارة الشريك المضيف لموقعنا</string>
-    <string name="crdroid_buildserversponsor_summary">نحن نوصي بخوادمهم إن كنت مهتمًا</string>
     <!-- Support DescartesOS -->
-    <string name="crdroid_donate_preference_title">ادعمنا</string>
-    <string name="crdroid_donate_preference_summary">تبرع لدعم المزيد من التطوير</string>
-    <string name="crdroid_donate_title">DescartesOS يحتاج إلى مساعدتك!</string>
-    <string name="crdroid_donate_notification_text">انقر لمعرفة المزيد</string>
-    <string name="crdroid_donate_message">DescartesOS أندرويد هو مشروع مفتوح المصدر يحتاج مساعدتك للحفاظ على الموقع على الإنترنت خوادم البناء لدينا قيد التشغيل، ولتقديم بنايات عالية الجودة لجهازك.\n\n
-تبرع صغير يساعد على إبقاء هذا المشروع على قيد الحياة وتحسينه. يمكنك تجاهل هذه الرسالة، ولكن دعمك يعني الكثير لنا.</string>
-    <string name="crdroid_donate_button">تبرع الآن</string>
     <string name="crdroid_later_button">ربما الشهر القادم</string>
-    <string name="crdroid_channel_name">إظهار الإشعارات</string>
     <string name="crdroid_channel_desc">إشعارات مشروع محدد</string>
-    <string name="crdroid_donate_still_needed">.</string>
-    <string name="crdroid_donate_thank_you">نحن نقدر كل التبرعات لهذا الشهر. لا يزال بإمكانك المساهمة و إحداث فرق!</string>
-    <string name="crdroid_donate_raised">€%,d جمعت</string>
-    <string name="crdroid_donate_total">€%,d الهدف</string>
-    <string name="crdroid_donate_loading">جاري التحديث...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">التحديثات</string>
     <string name="crdroid_update_summary">التحقق من أحدث تحديث وتحميله</string>

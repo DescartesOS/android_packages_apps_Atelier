@@ -85,31 +85,9 @@
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">گیتهەب</string>
     <string name="crdroid_source_summary">We love open source, check us out</string>
-    <string name="crdroid_telegram_title">DescartesOS community</string>
-    <string name="crdroid_telegram_summary">We are on telegram. Join us!</string>
-    <string name="crdroid_telegram_channel_title">Updates channel</string>
-    <string name="crdroid_telegram_channel_summary">Get notified of new builds on Telegram</string>
-    <string name="crdroid_website_title">Official website</string>
-    <string name="crdroid_website_summary">Visit our official website</string>
-    <string name="crdroid_translate_title">وەرگێڕەکان</string>
-    <string name="crdroid_translate_summary">Help with localisation of ROM in your language!</string>
-    <string name="crdroid_sponsor_summary">Visit our website host partner</string>
-    <string name="crdroid_buildserversponsor_summary">ئەگەر پێویستت بە سێرڤەر هەبوو، پێشنیاری سێرڤەرەکانی ئەوان دەکەین</string>
     <!-- Support DescartesOS -->
-    <string name="crdroid_donate_preference_title">پشتگیریمان بکە</string>
-    <string name="crdroid_donate_preference_summary">هاوکاریمان بکە بۆ پەرەپێدانی داهاتوو</string>
-    <string name="crdroid_donate_title">سی ئاڕ درۆید پێویستی بە هاوکاریەکانتە!</string>
-    <string name="crdroid_donate_notification_text">پەنجە لێرە بدە بۆ زانیاری زیاتر</string>
-    <string name="crdroid_donate_message">سیستەمی DescartesOS Android پڕۆژەیەکی سەرچاوە کراوەیە کە پێویستی بە هاوکاری تۆیە بۆ هێشتنەوەی ماڵپەڕەکە بە ئۆنڵاین، کارپێکردنی سێرڤەرەکانی بنیادنان Build servers، و دابینکردنی وەشانە کوالێتی بەرزەکان بۆ ئامێرەکەت.\n\nبەخشینێکی بچووک یارمەتیدەر دەبێت بۆ زیندوو هێشتنەوە و باشترکردنی ئەم پڕۆژەیە. دەتوانیت ئەم نامەیە لابدەیت، بەڵام پاڵپشتییەکەت مانایەکی زۆری هەیە بۆ ئێمە.</string>
-    <string name="crdroid_donate_button">هاوکاری بنێرە</string>
     <string name="crdroid_later_button">لەوانەیە مانگی داهاتوو</string>
-    <string name="crdroid_channel_name">ئاگاداری سی ئاڕ درۆید</string>
     <string name="crdroid_channel_desc">ئاگادارییەکانی تایبەت بە پڕۆژەکە</string>
-    <string name="crdroid_donate_still_needed">ئێمە هێشتا پێویستمان بە €%,d هەیە لەم مانگەدا. یارمەتیمان بدە بگەین بە ئامانجەکەمان.</string>
-    <string name="crdroid_donate_thank_you">سوپاسگوزاری هەموو بەخشینەکانی ئەم مانگەین. تۆش هێشتا دەتوانیت بەشداری بکەیت و جیاوازی دروست بکەیت!</string>
-    <string name="crdroid_donate_raised">€%,d کۆکراوەتەوە</string>
-    <string name="crdroid_donate_total">€%,d ئامانجمان</string>
-    <string name="crdroid_donate_loading">نوێکردنەوەی بەخشینەکە...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Updates</string>
     <string name="crdroid_update_summary">Check and download latest update</string>

@@ -85,32 +85,9 @@
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>
     <string name="crdroid_source_summary">Volimo open source, provjerite nas</string>
-    <string name="crdroid_telegram_title">DescartesOS zajednica</string>
-    <string name="crdroid_telegram_summary">Na telegramu smo. Pridruži nam se!</string>
-    <string name="crdroid_telegram_channel_title">Kanal ažuriranja</string>
-    <string name="crdroid_telegram_channel_summary">Primajte obavijesti o novim verzijama na Telegramu</string>
-    <string name="crdroid_website_title">Službena web stranica</string>
-    <string name="crdroid_website_summary">Posjetite našu službenu web stranicu</string>
-    <string name="crdroid_translate_title">Prijevod</string>
-    <string name="crdroid_translate_summary">Pomozite s lokalizacijom ROM-a na vaš jezik!</string>
-    <string name="crdroid_sponsor_summary">Posjetite našeg partnera za hosting web stranice</string>
-    <string name="crdroid_buildserversponsor_summary">Preporučujemo njihove poslužitelje ako ste zainteresirani</string>
     <!-- Support DescartesOS -->
-    <string name="crdroid_donate_preference_title">Podržite nas</string>
-    <string name="crdroid_donate_preference_summary">Donirajte za podršku daljnjem razvoju</string>
-    <string name="crdroid_donate_title">DescartesOS treba vašu pomoć!</string>
-    <string name="crdroid_donate_notification_text">Dodirnite da biste saznali više</string>
-    <string name="crdroid_donate_message">DescartesOS Android je projekt otvorenog koda kojem je potrebna vaša pomoć kako bi web stranica bila online, naši poslužitelji za izradu radili i kako bi isporučivao visokokvalitetne izrade za vaš uređaj..\n\n
-Mala donacija pomaže u održavanju i poboljšanju ovog projekta. Možete odbaciti ovu poruku, ali vaša podrška nam puno znači.</string>
-    <string name="crdroid_donate_button">Donirajte sada</string>
     <string name="crdroid_later_button">Možda sljedeći mjesec</string>
-    <string name="crdroid_channel_name">DescartesOS obavijesti</string>
     <string name="crdroid_channel_desc">Obavijesti specifične za projekt</string>
-    <string name="crdroid_donate_still_needed">Još nam treba €%d ovaj mjesec. Pomozite nam da ostvarimo naš cilj.</string>
-    <string name="crdroid_donate_thank_you">Cijenimo sve donacije za ovaj mjesec. Još uvijek možete doprinijeti i napraviti razliku!</string>
-    <string name="crdroid_donate_raised">€%,d raste</string>
-    <string name="crdroid_donate_total">od €%,d cilja</string>
-    <string name="crdroid_donate_loading">Ažuriranje napretka...</string>
     <!-- OTA -->
     <string name="crdroid_update_title">Ažuriranja</string>
     <string name="crdroid_update_summary">Provjerite i preuzmite najnovije ažuriranje</string>
