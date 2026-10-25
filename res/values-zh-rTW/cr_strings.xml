@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">分享 DescartesOS</string>
     <string name="share_crdroid_summary">讓別人知道 DescartesOS</string>
-    <string name="share_message">在 https://crdroid.net/ 看看 #DescartesOS Android</string>
+    <string name="share_message">在 https://github.com/DescartesOS 看看 #DescartesOS Android</string>
     <string name="share_chooser_title">分享 DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

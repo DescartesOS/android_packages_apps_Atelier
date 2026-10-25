@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Goodies</string>
     <string name="reset_settings_title">Instellingen resetten</string>
-    <string name="reset_settings_message">Dit zal de meeste crdroid instellingen terugzetten op de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
+    <string name="reset_settings_message">Dit zal de meeste DescartesOS instellingen terugzetten op de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Knoppen</string>
     <string name="lockscreen_title">Schermvergrendeling</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Deel DescartesOS</string>
     <string name="share_crdroid_summary">Laat anderen weten over DescartesOS</string>
-    <string name="share_message">Kijk eens of #DescartesOSAndroid beschikbaar is voor uw apparaat @ https://crdroid.net/</string>
+    <string name="share_message">Kijk eens of #DescartesOSAndroid beschikbaar is voor uw apparaat @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Deel DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">Github</string>

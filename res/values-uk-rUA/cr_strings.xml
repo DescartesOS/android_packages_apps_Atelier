@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Додаткові налаштування</string>
     <string name="reset_settings_title">Скинути налаштування</string>
-    <string name="reset_settings_message">Буде здійснено скидання більшості параметрів crdroid до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
+    <string name="reset_settings_message">Буде здійснено скидання більшості параметрів DescartesOS до їх значень за замовчуванням для поточного користувача. Чи хотіли б Ви продовжити?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Кнопки</string>
     <string name="lockscreen_title">Блокування екрану</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Поділитися DescartesOS</string>
     <string name="share_crdroid_summary">Нехай інші знають про DescartesOS</string>
-    <string name="share_message">Перевірте, чи доступний #DescartesOSAndroid для Вашого пристрою @ https://crdroid.net/</string>
+    <string name="share_message">Перевірте, чи доступний #DescartesOSAndroid для Вашого пристрою @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Поділитися DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Otvorte dobroty</string>
     <string name="reset_settings_title">Resetovať nastavenia</string>
-    <string name="reset_settings_message">To obnoví väčšinu crdroid nastavení na predvolené hodnoty pre aktuálneho používateľa. Chcete pokračovať?</string>
+    <string name="reset_settings_message">To obnoví väčšinu DescartesOS nastavení na predvolené hodnoty pre aktuálneho používateľa. Chcete pokračovať?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tlačidlá</string>
     <string name="lockscreen_title">Obrazovka uzamknutia</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Zdieľať DescartesOS</string>
     <string name="share_crdroid_summary">Dajte ostatným vedieť o DescartesOS</string>
-    <string name="share_message">Zistite o #DescartesOS viac na @ https://crdroid.net/</string>
+    <string name="share_message">Zistite o #DescartesOS viac na @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Zdieľať DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">باز کردن تنظیمات ویژه</string>
     <string name="reset_settings_title">بازنشانی تنظیمات</string>
-    <string name="reset_settings_message">با این کار بیشتر تنظیمات crdroid برای کاربر فعلی به مقادیر پیشفرض بازنشانی میشود،دوست دارید ادامه دهید؟</string>
+    <string name="reset_settings_message">با این کار بیشتر تنظیمات DescartesOS برای کاربر فعلی به مقادیر پیشفرض بازنشانی میشود،دوست دارید ادامه دهید؟</string>
     <!-- Personalization Categories -->
     <string name="button_title">دکمه‌‌ها</string>
     <string name="lockscreen_title">صفحه قفل</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">اشتراک گذاری DescartesOS</string>
     <string name="share_crdroid_summary">به دیگران DescartesOS را معرفی کنید</string>
-    <string name="share_message">ببین آیا #DescartesOSAndroid برای دستگاه شما در دسترس هس @ https://crdroid.net/</string>
+    <string name="share_message">ببین آیا #DescartesOSAndroid برای دستگاه شما در دسترس هس @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">اشتراک گذاری DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">گیت‌هاب</string>

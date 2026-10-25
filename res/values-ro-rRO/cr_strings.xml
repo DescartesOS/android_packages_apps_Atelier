@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Unde se intampla magia</string>
     <string name="reset_settings_title">Resetare setări</string>
-    <string name="reset_settings_message">Aceasta va reseta cele mai multe setări crdroid la valorile lor implicite pentru utilizatorul curent. Doriți să continuați?</string>
+    <string name="reset_settings_message">Aceasta va reseta cele mai multe setări DescartesOS la valorile lor implicite pentru utilizatorul curent. Doriți să continuați?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Butoane</string>
     <string name="lockscreen_title">Ecran de blocare</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Distribuie DescartesOS</string>
     <string name="share_crdroid_summary">Anunta-i si pe altii despre DescartesOS</string>
-    <string name="share_message">Verifică dacă #DescartesOSAndroid este disponibil pentru dispozitivul tău @ https://crdroid.net/</string>
+    <string name="share_message">Verifică dacă #DescartesOSAndroid este disponibil pentru dispozitivul tău @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Distribuie DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">ملخص الإعدادات</string>
     <string name="reset_settings_title">إعادة ضبط الإعدادات</string>
-    <string name="reset_settings_message">سيؤدي ذلك إلى إعادة تعيين معظم إعدادات crdroid إلى قيمها الافتراضية للمستخدم الحالي. هل ترغب في المتابعة؟</string>
+    <string name="reset_settings_message">سيؤدي ذلك إلى إعادة تعيين معظم إعدادات DescartesOS إلى قيمها الافتراضية للمستخدم الحالي. هل ترغب في المتابعة؟</string>
     <!-- Personalization Categories -->
     <string name="button_title">الأزرار</string>
     <string name="lockscreen_title">شاشة القفل</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">مشاركة DescartesOS</string>
     <string name="share_crdroid_summary">دع الآخرين يعرفون عن DescartesOS</string>
-    <string name="share_message">تحقق مما إذا كان #DescartesOSAndroid متوفر لجهازك @ https://crdroid.net/</string>
+    <string name="share_message">تحقق مما إذا كان #DescartesOSAndroid متوفر لجهازك @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">مشاركة DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">على موقع Github</string>
@@ -98,7 +98,7 @@
     <!-- Support DescartesOS -->
     <string name="crdroid_donate_preference_title">ادعمنا</string>
     <string name="crdroid_donate_preference_summary">تبرع لدعم المزيد من التطوير</string>
-    <string name="crdroid_donate_title">CrDroid يحتاج إلى مساعدتك!</string>
+    <string name="crdroid_donate_title">DescartesOS يحتاج إلى مساعدتك!</string>
     <string name="crdroid_donate_notification_text">انقر لمعرفة المزيد</string>
     <string name="crdroid_donate_message">DescartesOS أندرويد هو مشروع مفتوح المصدر يحتاج مساعدتك للحفاظ على الموقع على الإنترنت خوادم البناء لدينا قيد التشغيل، ولتقديم بنايات عالية الجودة لجهازك.\n\n
 تبرع صغير يساعد على إبقاء هذا المشروع على قيد الحياة وتحسينه. يمكنك تجاهل هذه الرسالة، ولكن دعمك يعني الكثير لنا.</string>
@@ -938,7 +938,7 @@
     <string name="app_info_install_time">جاري التثبيت %1$s</string>
     <string name="app_info_update_time">تم تحديث %1$s</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">إعدادات CrDroid</string>
+    <string name="show_clipboard_overlay_title">إعدادات DescartesOS</string>
     <string name="show_clipboard_overlay_summary">إظهار تراكب في الجزء السفلي الأيسر من الشاشة عندما يتم نسخ شيء ما إلى الحافظة</string>
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">تأمين المستشعر</string>

@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">A DescartesOS ajánlása</string>
     <string name="share_crdroid_summary">Tudassa másokkal a DescartesOS létezését</string>
-    <string name="share_message">Nézze meg, hogy a #DescartesOS Android elkészült-e az Ön készülékéhez: @ https://crdroid.net/</string>
+    <string name="share_message">Nézze meg, hogy a #DescartesOS Android elkészült-e az Ön készülékéhez: @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">A DescartesOS ajánlása</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Cihazınızı özəlləşdirin</string>
     <string name="reset_settings_title">Parametrləri sıfırla</string>
-    <string name="reset_settings_message">Bu, əksər crdroid parametrlərini cari istifadəçi üçün standart dəyərlərinə sıfırlayacaq. Davam etmək istərsinizmi?</string>
+    <string name="reset_settings_message">Bu, əksər DescartesOS parametrlərini cari istifadəçi üçün standart dəyərlərinə sıfırlayacaq. Davam etmək istərsinizmi?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Düymələr</string>
     <string name="lockscreen_title">Kilid Ekranı</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">DescartesOS\'i paylaş</string>
     <string name="share_crdroid_summary">DescartesOS haqqında başqalarının görüşlərini öyrənin</string>
-    <string name="share_message">DescartesOS\'in sizin cihaza uyğun olduğunu @ https://crdroid.net/ saytından öyrənə bilərsiniz</string>
+    <string name="share_message">DescartesOS\'in sizin cihaza uyğun olduğunu @ https://github.com/DescartesOS saytından öyrənə bilərsiniz</string>
     <string name="share_chooser_title">DescartesOS\'i paylaş</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Xwezî veke</string>
     <string name="reset_settings_title">Mîhengan vegerîne</string>
-    <string name="reset_settings_message">Ev ê piraniya mîhengên crdroid-ê li nirxên xweyên xwerû ji bo bikarhênerê heyî vegerîne. Ma hûn dixwazin berdewam bikin?</string>
+    <string name="reset_settings_message">Ev ê piraniya mîhengên DescartesOS-ê li nirxên xweyên xwerû ji bo bikarhênerê heyî vegerîne. Ma hûn dixwazin berdewam bikin?</string>
     <!-- Personalization Categories -->
     <string name="button_title">دوگمەکان</string>
     <string name="lockscreen_title">ڕوونماداخراو</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">هاوبەشکردنی DescartesOS</string>
     <string name="share_crdroid_summary">Let others know about DescartesOS</string>
-    <string name="share_message">Check out if #DescartesOSAndroid is available for your device @ https://crdroid.net/</string>
+    <string name="share_message">Check out if #DescartesOSAndroid is available for your device @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">هاوبەشکردنی DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">گیتهەب</string>

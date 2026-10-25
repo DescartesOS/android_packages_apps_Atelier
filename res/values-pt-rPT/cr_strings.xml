@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Abrir as coisinhas boas</string>
     <string name="reset_settings_title">Repor definições</string>
-    <string name="reset_settings_message">Isso irá redefinir a maioria das configurações do crdroid para seus valores padrão para o usuário atual. Você gostaria de continuar?</string>
+    <string name="reset_settings_message">Isso irá redefinir a maioria das configurações do DescartesOS para seus valores padrão para o usuário atual. Você gostaria de continuar?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Botões</string>
     <string name="lockscreen_title">Ecrã de bloqueio</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Partilhar DescartesOS</string>
     <string name="share_crdroid_summary">Deixar os outros saber da DescartesOS</string>
-    <string name="share_message">Conferir se #DescartesOSAndroid está disponível para o seu dispositivo @ https://crdroid.net/</string>
+    <string name="share_message">Conferir se #DescartesOSAndroid está disponível para o seu dispositivo @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Partilhar DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

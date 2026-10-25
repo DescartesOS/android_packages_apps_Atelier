@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Öppna godsaker</string>
     <string name="reset_settings_title">Återställ inställningar</string>
-    <string name="reset_settings_message">Detta kommer att återställa de flesta inställningar för crdroid till deras standardvärden för den aktuella användaren. Vill du fortsätta?</string>
+    <string name="reset_settings_message">Detta kommer att återställa de flesta inställningar för DescartesOS till deras standardvärden för den aktuella användaren. Vill du fortsätta?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Knappar</string>
     <string name="lockscreen_title">Skärmlåset</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Dela DescartesOS</string>
     <string name="share_crdroid_summary">Dela med dig av DescartesOS till andra</string>
-    <string name="share_message">Kontrollera ifall #DescartesOSAndroid finns tillgänglig för din enhet @ https://crdroid.net/</string>
+    <string name="share_message">Kontrollera ifall #DescartesOSAndroid finns tillgänglig för din enhet @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Dela med dig av DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Partager DescartesOS</string>
     <string name="share_crdroid_summary">Faire connaitre DescartesOS</string>
-    <string name="share_message">Vérifiez si #DescartesOSAndroid est disponible pour votre appareil @ https://crdroid.net/</string>
+    <string name="share_message">Vérifiez si #DescartesOSAndroid est disponible pour votre appareil @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Partager DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">Open source</string>

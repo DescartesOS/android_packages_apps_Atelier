@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Отворени благини</string>
     <string name="reset_settings_title">Нулирай настройките</string>
-    <string name="reset_settings_message">Това ще нулира повечето crdroid настройки до техните стойности по подразбиране за текущия потребител. Искате ли да продължите?</string>
+    <string name="reset_settings_message">Това ще нулира повечето DescartesOS настройки до техните стойности по подразбиране за текущия потребител. Искате ли да продължите?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Бутони</string>
     <string name="lockscreen_title">Екран за заключване</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Сподели DescartesOS</string>
     <string name="share_crdroid_summary">Уведомете други за DescartesOS</string>
-    <string name="share_message">Вижте дали #DescartesOSAndroid е достъпен за вашето устройство @ https://crdroid.net/</string>
+    <string name="share_message">Вижте дали #DescartesOSAndroid е достъпен за вашето устройство @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Сподели DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">ГитХъб/GitHub</string>

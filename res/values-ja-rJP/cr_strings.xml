@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">DescartesOS についてシェアする</string>
     <string name="share_crdroid_summary">みんなに DescartesOS を知ってもらいましょう</string>
-    <string name="share_message">カスタム ROM #DescartesOSAndroid を使ってみて！ https://crdroid.net/</string>
+    <string name="share_message">カスタム ROM #DescartesOSAndroid を使ってみて！ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">DescartesOS をシェア</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

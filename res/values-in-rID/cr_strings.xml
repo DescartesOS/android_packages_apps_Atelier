@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">Kebaikan terbuka</string>
     <string name="reset_settings_title">Setel ulang pengaturan</string>
-    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan crdroid ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
+    <string name="reset_settings_message">Ini akan mengatur ulang sebagian besar pengaturan DescartesOS ke nilai default untuk pengguna saat ini. Apakah Anda ingin melanjutkan?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tombol</string>
     <string name="lockscreen_title">Layar Kunci</string>
@@ -80,7 +80,7 @@
     <!-- Share DescartesOS -->
     <string name="share_crdroid_title">Bagikan DescartesOS</string>
     <string name="share_crdroid_summary">Biarkan orang lain tahu tentang DescartesOS</string>
-    <string name="share_message">Periksa apakah #DescartesOSAndroid tersedia untuk perangkat Anda @ https://crdroid.net/</string>
+    <string name="share_message">Periksa apakah #DescartesOSAndroid tersedia untuk perangkat Anda @ https://github.com/DescartesOS</string>
     <string name="share_chooser_title">Bagikan DescartesOS</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">GitHub</string>

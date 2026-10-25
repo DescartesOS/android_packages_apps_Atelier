@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">Atelier</string>
     <string name="crdroid_settings_summary">গুডনেস উন্মুক্ত করুন</string>
     <string name="reset_settings_title">সেটিংস রিসেট করুন</string>
-    <string name="reset_settings_message">এটি বর্তমান ব্যবহারকারীর জন্য বেশিরভাগ crdroid সেটিংসকে তাদের ডিফল্ট মানগুলিতে পুনরায় সেট করবে। আপনি কি অবিরত করতে চান?</string>
+    <string name="reset_settings_message">এটি বর্তমান ব্যবহারকারীর জন্য বেশিরভাগ DescartesOS সেটিংসকে তাদের ডিফল্ট মানগুলিতে পুনরায় সেট করবে। আপনি কি অবিরত করতে চান?</string>
     <!-- Personalization Categories -->
     <string name="button_title">বাটন</string>
     <string name="lockscreen_title">লক স্ক্রিন</string>
@@ -75,13 +75,13 @@
     <string name="changelog_crdroid_summary">ইনস্টল করা রমে পরিবর্তন দেখুন</string>
     <string name="changelog_crdroid_error">পরিবর্তন লোড করতে অক্ষম</string>
     <!-- About DescartesOS -->
-    <string name="about_crdroid">CrDroid সম্পর্কে</string>
+    <string name="about_crdroid">DescartesOS সম্পর্কে</string>
     <string name="about_device_name">ডিভাইস</string>
     <!-- Share DescartesOS -->
-    <string name="share_crdroid_title">CrDroid শেয়ার করুন</string>
-    <string name="share_crdroid_summary">CrDroid সম্পর্কে অন্যদের জানান</string>
+    <string name="share_crdroid_title">DescartesOS শেয়ার করুন</string>
+    <string name="share_crdroid_summary">DescartesOS সম্পর্কে অন্যদের জানান</string>
     <string name="share_message">DescartesOS আপনার ডিভাইসে আছে কিনা দেখুন</string>
-    <string name="share_chooser_title">CrDroid শেয়ার করুন</string>
+    <string name="share_chooser_title">DescartesOS শেয়ার করুন</string>
     <!-- Sites DescartesOS -->
     <string name="crdroid_source_title">গিটহাব</string>
     <string name="crdroid_source_summary">আমরা ওপেন সোর্স ভালবাসি, আমাদেরকে দেখুন</string>
