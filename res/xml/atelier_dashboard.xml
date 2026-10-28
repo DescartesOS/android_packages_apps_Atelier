@@ -47,6 +47,13 @@
             android:fragment="com.crdroid.settings.fragments.Buttons" />
 
         <Preference
+            android:key="atelier_onehand"
+            android:icon="@drawable/atelier_ic_onehand"
+            android:title="@string/onehand_title"
+            android:summary="@string/onehand_summary"
+            android:fragment="com.crdroid.settings.fragments.OneHandGestures" />
+
+        <Preference
             android:key="atelier_sound"
             android:icon="@drawable/atelier_ic_sound"
             android:title="@string/sound_title"

@@ -1,0 +1,63 @@
+<resources>
+    <string name="onehand_title">One Hand Gestures</string>
+    <string name="onehand_summary">Control your phone with straight and diagonal edge swipes</string>
+    <string name="onehand_enabled">Enable One Hand Gestures</string>
+    <string name="onehand_left_enabled">Left handle</string>
+    <string name="onehand_right_enabled">Right handle</string>
+    <string name="onehand_haptic">Vibration feedback</string>
+    <string name="onehand_landscape">Enable in landscape</string>
+    <string name="onehand_width">Handle touch width</string>
+    <string name="onehand_height">Handle height</string>
+    <string name="onehand_position">Handle vertical position</string>
+    <string name="onehand_distance">Swipe distance</string>
+    <string name="onehand_hold">Long swipe hold duration</string>
+    <string name="onehand_opacity">Handle opacity</string>
+    <string name="onehand_geometry">Handles and sensitivity</string>
+    <string name="onehand_left">Left handle actions</string>
+    <string name="onehand_right">Right handle actions</string>
+    <string name="onehand_short_straight">Swipe inward</string>
+    <string name="onehand_short_up">Swipe diagonally up</string>
+    <string name="onehand_short_down">Swipe diagonally down</string>
+    <string name="onehand_long_straight">Swipe inward and hold</string>
+    <string name="onehand_long_up">Swipe diagonally up and hold</string>
+    <string name="onehand_long_down">Swipe diagonally down and hold</string>
+    <string name="onehand_usage">Swipe inward from a handle and release for a short action. Swipe and hold for a long action. Handles are inactive on the lock screen and while touch exploration is enabled.</string>
+    <string-array name="onehand_action_entries">
+        <item>None</item>
+        <item>Back</item>
+        <item>Home</item>
+        <item>Recent apps</item>
+        <item>Notifications</item>
+        <item>Quick Settings</item>
+        <item>Screen off</item>
+        <item>Screenshot</item>
+        <item>Flashlight</item>
+        <item>Play or pause media</item>
+        <item>Previous track</item>
+        <item>Next track</item>
+        <item>Power menu</item>
+        <item>Voice assistant</item>
+        <item>Volume up</item>
+        <item>Volume down</item>
+        <item>Lower screen (one-handed mode)</item>
+    </string-array>
+    <string-array name="onehand_action_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+</resources>
