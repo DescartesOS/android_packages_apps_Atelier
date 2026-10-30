@@ -1815,6 +1815,7 @@ To setup Depth Wallpaper Feature:
     <!-- Build details -->
     <string name="build_maintainer_title">Device maintainer</string>
     <string name="build_maintainer_summary">Unofficial</string>
+    <string name="build_maintainer_official">Official build</string>
     <string name="build_maintainer_donate_url" translatable="false">https://crdroid.net/donate</string>
 
     <!-- Settings UI -->
