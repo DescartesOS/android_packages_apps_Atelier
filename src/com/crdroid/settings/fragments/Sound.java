@@ -134,6 +134,12 @@ public class Sound extends SettingsPreferenceFragment implements
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.VOLUME_DIALOG_HAPTIC_FEEDBACK, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
+                "volume_dialog_type", 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                "compose_volume_style", 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.SHOW_VOLUME_PERCENTAGE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_CONNECT, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.VIBRATE_ON_CALLWAITING, 0, UserHandle.USER_CURRENT);
