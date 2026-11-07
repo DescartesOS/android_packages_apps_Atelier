@@ -137,7 +137,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     private void updatePanelStylePrefs(int panelStyle) {
         boolean isCard = panelStyle == 0;
-        boolean isLabelStyle = panelStyle == 1 || panelStyle == 5;
+        boolean isLabelStyle = panelStyle == 1;
 
         if (mQsTileShape != null) {
             mQsTileShape.setVisible(isCard);
@@ -196,8 +196,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_TILE_SHAPE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                "penguin_liquid_glass", 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,

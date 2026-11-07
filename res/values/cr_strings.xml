@@ -1428,7 +1428,6 @@
     <string name="qs_panel_style_title">QS Panel style</string>
     <string name="qs_panel_style_card">Card style</string>
     <string name="qs_panel_style_classic">Classic style</string>
-    <string name="qs_panel_style_coloros17">ColorOS 17</string>
 
     <!-- Dynamic island -->
     <string name="status_bar_dynamic_island_title">Dynamic island</string>
@@ -1506,8 +1505,6 @@ To setup Depth Wallpaper Feature:
     <string name="penguin_glass_tab_bars_summary">IOS Style BottomBar UI for google apps</string>
 
     <!-- Liquid Glass -->
-    <string name="liquid_glass_title">Liquid Glass</string>
-    <string name="liquid_glass_summary">Frosted glass blur and dynamic rim highlights on Quick Settings</string>
 
     <!-- Expandable Lockscreen Player -->
     <string name="ls_media_expand_title">Expandable lock screen player</string>

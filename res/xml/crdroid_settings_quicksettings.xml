@@ -174,13 +174,6 @@
             android:entryValues="@array/qs_panel_style_values"
             android:defaultValue="0" />
 
-        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
-            android:key="penguin_liquid_glass"
-            android:icon="@drawable/ic_blur"
-            android:title="@string/liquid_glass_title"
-            android:summary="@string/liquid_glass_summary"
-            android:defaultValue="false" />
-
         <com.crdroid.settings.preferences.SystemSettingListPreference
             android:key="qs_tile_shape"
             android:icon="@drawable/ic_shapes"
