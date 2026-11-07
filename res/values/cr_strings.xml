@@ -1433,6 +1433,7 @@
     <string name="qs_panel_style_title">QS Panel style</string>
     <string name="qs_panel_style_card">Card style</string>
     <string name="qs_panel_style_classic">Classic style</string>
+    <string name="qs_panel_style_coloros" translatable="false">ColorOS</string>
 
     <!-- Dynamic island -->
     <string name="status_bar_dynamic_island_title">Dynamic island</string>
