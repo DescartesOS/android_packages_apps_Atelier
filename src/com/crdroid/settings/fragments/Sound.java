@@ -61,10 +61,12 @@ public class Sound extends SettingsPreferenceFragment implements
     private static final String KEY_VOLUME_PANEL_LEFT = "volume_panel_on_left";
     private static final String KEY_VOLUME_HAPTIC = "volume_dialog_haptic_feedback";
     private static final String KEY_VOLUME_DIALOG_TYPE = "volume_dialog_type";
+    private static final String KEY_COMPOSE_VOLUME_STYLE = "compose_volume_style";
 
     private SwitchPreferenceCompat mVolumePanelLeft;
     private SwitchPreferenceCompat mVolumeHaptic;
     private ListPreference mVolumeDialogType;
+    private ListPreference mComposeVolumeStyle;
 
     private static volatile Boolean sAudioPanelOnLeft = null;
 
@@ -84,6 +86,13 @@ public class Sound extends SettingsPreferenceFragment implements
         mVolumeDialogType = prefScreen.findPreference(KEY_VOLUME_DIALOG_TYPE);
         if (mVolumeDialogType != null) {
             mVolumeDialogType.setOnPreferenceChangeListener(this);
+        }
+
+        mComposeVolumeStyle = prefScreen.findPreference(KEY_COMPOSE_VOLUME_STYLE);
+        if (mComposeVolumeStyle != null) {
+            mComposeVolumeStyle.setEnabled(Settings.System.getIntForUser(
+                    context.getContentResolver(), "volume_dialog_type", 1,
+                    UserHandle.USER_CURRENT) == 0);
         }
 
         mVolumePanelLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
@@ -106,6 +115,9 @@ public class Sound extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mVolumeDialogType) {
+            if (mComposeVolumeStyle != null) {
+                mComposeVolumeStyle.setEnabled(Integer.parseInt((String) newValue) == 0);
+            }
             SystemUtils.showSystemUiRestartDialog(getContext());
             return true;
         }

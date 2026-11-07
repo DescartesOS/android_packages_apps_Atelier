@@ -1095,6 +1095,18 @@
         <item>1</item>
     </string-array>
 
+    <string-array name="compose_volume_style_entries" translatable="false">
+        <item>Axion</item>
+        <item>Lunaris</item>
+        <item>Moto</item>
+    </string-array>
+
+    <string-array name="compose_volume_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <string-array name="qs_tile_icon_shape_entries" translatable="false">
         <item>@string/shape_circle</item>
         <item>@string/shape_square</item>
