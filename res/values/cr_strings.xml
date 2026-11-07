@@ -1430,6 +1430,8 @@
     <string name="shade_color_style_aosp">Stock Android colors</string>
     <string name="shade_color_style_glass">Clear, frosted panel that lets your wallpaper show through</string>
     <string name="shade_color_style_tinted">Panel tinted with your accent color, with or without blur</string>
+    <string name="qs_coloros_media_art_fill_title">Fill media card with art</string>
+    <string name="qs_coloros_media_art_fill_summary">Show the album art over the whole media card instead of a thumbnail</string>
     <string name="qs_panel_style_title">QS Panel style</string>
     <string name="qs_panel_style_card">Card style</string>
     <string name="qs_panel_style_classic">Classic style</string>

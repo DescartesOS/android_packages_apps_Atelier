@@ -64,6 +64,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_QS_TILE_SHAPE = "qs_tile_shape";
     private static final String KEY_QS_TILE_ICON_SHAPE = "qs_tile_icon_shape";
     private static final String KEY_QS_TILE_LABEL_HIDE = "qs_tile_label_hide";
+    private static final String KEY_QS_COLOROS_MEDIA_ART_FILL = "qs_coloros_media_art_fill";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mVolumeSliderMode;
@@ -76,6 +77,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private Preference mQsTileShape;
     private Preference mQsTileIconShape;
     private SwitchPreferenceCompat mQsTileLabelHide;
+    private Preference mQsColorOSMediaArtFill;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -129,6 +131,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQsTileShape = findPreference(KEY_QS_TILE_SHAPE);
         mQsTileIconShape = findPreference(KEY_QS_TILE_ICON_SHAPE);
         mQsTileLabelHide = findPreference(KEY_QS_TILE_LABEL_HIDE);
+        mQsColorOSMediaArtFill = findPreference(KEY_QS_COLOROS_MEDIA_ART_FILL);
 
         int panelStyle = Settings.System.getIntForUser(resolver,
                 Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
@@ -138,6 +141,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private void updatePanelStylePrefs(int panelStyle) {
         boolean isCard = panelStyle == 0;
         boolean isLabelStyle = panelStyle == 1;
+        boolean isColorOS = panelStyle == 2;
 
         if (mQsTileShape != null) {
             mQsTileShape.setVisible(isCard);
@@ -146,7 +150,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             mQsTileIconShape.setVisible(isLabelStyle);
         }
         if (mQsTileLabelHide != null) {
-            mQsTileLabelHide.setVisible(isLabelStyle);
+            mQsTileLabelHide.setVisible(isLabelStyle || isColorOS);
+        }
+        if (mQsColorOSMediaArtFill != null) {
+            mQsColorOSMediaArtFill.setVisible(isColorOS);
         }
     }
 
@@ -200,6 +207,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_LABEL_HIDE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                "qs_coloros_media_art_fill", 0, UserHandle.USER_CURRENT);
         Settings.System.putStringForUser(resolver,
                 Settings.System.QS_TILE_ICON_SHAPE, "circle", UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
