@@ -52,6 +52,9 @@ public class UserInterface extends SettingsPreferenceFragment implements
     public static final String TAG = "UserInterface";
 
     private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
+    private static final String KEY_SHADE_COLOR_STYLE = "shade_color_style";
+
+    private static final int QS_PANEL_STYLE_COLOROS = 2;
 
     private Preference mShowCutoutForce;
 
@@ -71,6 +74,25 @@ public class UserInterface extends SettingsPreferenceFragment implements
             mShowCutoutForce = (Preference) findPreference(KEY_FORCE_FULL_SCREEN);
             prefScreen.removePreference(mShowCutoutForce);
         }
+
+        updateShadeStyleState();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateShadeStyleState();
+    }
+
+    private void updateShadeStyleState() {
+        Preference pref = findPreference(KEY_SHADE_COLOR_STYLE);
+        if (pref == null) return;
+        final boolean colorOS = Settings.System.getIntForUser(
+                getContext().getContentResolver(), Settings.System.QS_PANEL_STYLE, 0,
+                UserHandle.USER_CURRENT) == QS_PANEL_STYLE_COLOROS;
+        pref.setEnabled(!colorOS);
+        pref.setSummary(colorOS ? R.string.shade_color_style_summary_coloros
+                : R.string.shade_color_style_summary);
     }
 
     @Override
