@@ -61,6 +61,7 @@ public class LockScreen extends SettingsPreferenceFragment
 
     private static final String KEY_FP_SUCCESS = "fp_success_vibrate";
     private static final String KEY_FP_ERROR = "fp_error_vibrate";
+    private static final String KEY_FACE_ANIMATION = "face_unlock_animation";
 
     private Preference mUdfpsAnimations;
     private Preference mUdfpsIcons;
@@ -106,6 +107,13 @@ public class LockScreen extends SettingsPreferenceFragment
             gestCategory.removePreference(mFpErrorVib);
         }
 
+        if (!DeviceUtils.hasFace(context)) {
+            final Preference faceAnim = findPreference(KEY_FACE_ANIMATION);
+            if (faceAnim != null) {
+                faceAnim.getParent().removePreference(faceAnim);
+            }
+        }
+
         mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
         mSmartspace.setOnPreferenceChangeListener(this);
 
@@ -135,6 +143,8 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.Secure.LOCKSCREEN_SMARTSPACE_ENABLED, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.LOCKSCREEN_BATTERY_INFO, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                "face_unlock_animation", 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.DOUBLE_TAP_SLEEP_LOCKSCREEN, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
@@ -209,6 +219,10 @@ public class LockScreen extends SettingsPreferenceFragment
                         keys.add(KEY_FP_SUCCESS);
                         keys.add(KEY_FP_ERROR);
                     }
+                    if (!DeviceUtils.hasFace(context)) {
+                        keys.add(KEY_FACE_ANIMATION);
+                    }
+
                     return keys;
                 }
             };

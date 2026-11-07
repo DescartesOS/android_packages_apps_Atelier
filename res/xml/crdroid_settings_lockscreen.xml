@@ -67,6 +67,13 @@
             android:fragment="com.crdroid.settings.fragments.lockscreen.MediaArtSettings" />
 
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="face_unlock_animation"
+            android:icon="@drawable/ic_face"
+            android:title="@string/face_unlock_animation_title"
+            android:summary="@string/face_unlock_animation_summary"
+            android:defaultValue="true" />
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
             android:icon="@drawable/ic_battery_charging"
             android:title="@string/lockscreen_battery_info_title"

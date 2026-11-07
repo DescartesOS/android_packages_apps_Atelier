@@ -137,6 +137,8 @@
     <string name="lockscreen_interface_category">Interface</string>
 
     <!-- Lockscreen battery info indicator -->
+    <string name="face_unlock_animation_title">Face unlock animation</string>
+    <string name="face_unlock_animation_summary">Show the scanning, success and failure animation on the lock screen while unlocking with your face</string>
     <string name="lockscreen_battery_info_title">Battery info</string>
     <string name="lockscreen_battery_info_summary">Display battery info when charging</string>
 
