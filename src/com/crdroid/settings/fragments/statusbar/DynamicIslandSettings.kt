@@ -48,6 +48,10 @@ class DynamicIslandSettings : SettingsPreferenceFragment() {
             Settings.System.putIntForUser(resolver,
                 "status_bar_dynamic_island_height_scale", 100, UserHandle.USER_CURRENT)
             Settings.System.putIntForUser(resolver,
+                "status_bar_dynamic_island_offset_x_dp10", 0, UserHandle.USER_CURRENT)
+            Settings.System.putIntForUser(resolver,
+                "status_bar_dynamic_island_offset_y_dp10", 0, UserHandle.USER_CURRENT)
+            Settings.System.putIntForUser(resolver,
                 "status_bar_dynamic_island_popup_color_mode", 0, UserHandle.USER_CURRENT)
             Settings.System.putIntForUser(resolver,
                 "status_bar_dynamic_island_media_controls", 1, UserHandle.USER_CURRENT)
