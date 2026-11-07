@@ -55,6 +55,14 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
+    <!-- Hide screen capture status -->
+    <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+        android:key="hide_screen_capture_status"
+        android:icon="@drawable/ic_screenshot"
+        android:title="@string/hide_screen_capture_status_title"
+        android:summary="@string/hide_screen_capture_status_summary"
+        android:defaultValue="false" />
+
     <!-- Application downgrade -->
     <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
         android:key="pm_downgrade_allowed"

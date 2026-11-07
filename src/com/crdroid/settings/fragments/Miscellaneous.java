@@ -113,6 +113,7 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
                 Settings.System.ENABLE_ROTATION_BUTTON, 1, UserHandle.USER_CURRENT);
+        Settings.Global.putInt(resolver, "hide_screen_capture_status", 0);
         Settings.System.putIntForUser(resolver,
                 Settings.System.POCKET_JUDGE, 0, UserHandle.USER_CURRENT);
         LineageSettings.System.putIntForUser(resolver,
