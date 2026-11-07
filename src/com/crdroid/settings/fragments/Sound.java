@@ -39,6 +39,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.crdroid.settings.utils.DeviceUtils;
+import com.crdroid.settings.utils.SystemUtils;
 import com.crdroid.settings.utils.TelephonyUtils;
 
 import java.util.List;
@@ -47,7 +48,8 @@ import java.util.ArrayList;
 import lineageos.providers.LineageSettings;
 
 @SearchIndexable
-public class Sound extends SettingsPreferenceFragment {
+public class Sound extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     public static final String TAG = "Sound";
 
@@ -58,9 +60,11 @@ public class Sound extends SettingsPreferenceFragment {
     private static final String KEY_VIBRATE_DISCONNECT = "vibrate_on_disconnect";
     private static final String KEY_VOLUME_PANEL_LEFT = "volume_panel_on_left";
     private static final String KEY_VOLUME_HAPTIC = "volume_dialog_haptic_feedback";
+    private static final String KEY_VOLUME_DIALOG_TYPE = "volume_dialog_type";
 
     private SwitchPreferenceCompat mVolumePanelLeft;
     private SwitchPreferenceCompat mVolumeHaptic;
+    private ListPreference mVolumeDialogType;
 
     private static volatile Boolean sAudioPanelOnLeft = null;
 
@@ -77,6 +81,11 @@ public class Sound extends SettingsPreferenceFragment {
                 LineageSettings.Secure.VOLUME_PANEL_ON_LEFT, isAudioPanelOnLeftSide(context) ? 1 : 0,
                 UserHandle.USER_CURRENT) != 0;
 
+        mVolumeDialogType = prefScreen.findPreference(KEY_VOLUME_DIALOG_TYPE);
+        if (mVolumeDialogType != null) {
+            mVolumeDialogType.setOnPreferenceChangeListener(this);
+        }
+
         mVolumePanelLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_LEFT);
         mVolumePanelLeft.setChecked(isAudioPanelOnLeft);
 
@@ -92,6 +101,15 @@ public class Sound extends SettingsPreferenceFragment {
             mVolumeHaptic = volCategory.findPreference(KEY_VOLUME_HAPTIC);
             volCategory.removePreference(mVolumeHaptic);
         }
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mVolumeDialogType) {
+            SystemUtils.showSystemUiRestartDialog(getContext());
+            return true;
+        }
+        return false;
     }
 
     public static void reset(Context mContext) {
