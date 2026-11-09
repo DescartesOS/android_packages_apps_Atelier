@@ -1066,6 +1066,7 @@
         <item>@string/qs_panel_style_nothingos</item>
         <item>@string/qs_panel_style_hyperos</item>
         <item>@string/qs_panel_style_axion</item>
+        <item>@string/qs_panel_style_motorola</item>
     </string-array>
 
     <string-array name="qs_panel_style_values" translatable="false">
@@ -1075,6 +1076,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
 
     <string-array name="shade_color_style_entries" translatable="false">

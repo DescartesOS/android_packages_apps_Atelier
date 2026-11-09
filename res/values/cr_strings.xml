@@ -1911,4 +1911,5 @@ To setup Depth Wallpaper Feature:
     <string name="vehicle_motion_cues_sensitivity_summary">Strength of the dot translations relative to vehicle forces</string>
     <string name="vehicle_motion_cues_dot_count_title">Dot Count</string>
     <string name="vehicle_motion_cues_dot_count_summary">Number of animated motion cue dots shown along the screen margins</string>
+    <string name="qs_panel_style_motorola" translatable="false">Motorola HelloUI</string>
 </resources>
