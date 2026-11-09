@@ -55,6 +55,7 @@ public class UserInterface extends SettingsPreferenceFragment implements
     private static final String KEY_SHADE_COLOR_STYLE = "shade_color_style";
 
     private static final int QS_PANEL_STYLE_COLOROS = 2;
+    private static final int QS_PANEL_STYLE_HYPEROS = 4;
 
     private Preference mShowCutoutForce;
 
@@ -87,9 +88,11 @@ public class UserInterface extends SettingsPreferenceFragment implements
     private void updateShadeStyleState() {
         Preference pref = findPreference(KEY_SHADE_COLOR_STYLE);
         if (pref == null) return;
-        final boolean colorOS = Settings.System.getIntForUser(
+        final int panelStyle = Settings.System.getIntForUser(
                 getContext().getContentResolver(), Settings.System.QS_PANEL_STYLE, 0,
-                UserHandle.USER_CURRENT) == QS_PANEL_STYLE_COLOROS;
+                UserHandle.USER_CURRENT);
+        final boolean colorOS = panelStyle == QS_PANEL_STYLE_COLOROS
+                || panelStyle == QS_PANEL_STYLE_HYPEROS;
         pref.setEnabled(!colorOS);
         pref.setSummary(colorOS ? R.string.shade_color_style_summary_coloros
                 : R.string.shade_color_style_summary);

@@ -1064,6 +1064,7 @@
         <item>@string/qs_panel_style_classic</item>
         <item>@string/qs_panel_style_coloros</item>
         <item>@string/qs_panel_style_nothingos</item>
+        <item>@string/qs_panel_style_hyperos</item>
     </string-array>
 
     <string-array name="qs_panel_style_values" translatable="false">
@@ -1071,6 +1072,7 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
     </string-array>
 
     <string-array name="shade_color_style_entries" translatable="false">

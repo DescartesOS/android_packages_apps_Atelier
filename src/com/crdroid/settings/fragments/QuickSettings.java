@@ -142,6 +142,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         boolean isCard = panelStyle == 0;
         boolean isLabelStyle = panelStyle == 1;
         boolean isColorOS = panelStyle == 2;
+        boolean isHyperOS = panelStyle == 4;
 
         if (mQsTileShape != null) {
             mQsTileShape.setVisible(isCard);
@@ -153,7 +154,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             mQsTileLabelHide.setVisible(isLabelStyle || isColorOS);
         }
         if (mQsColorOSMediaArtFill != null) {
-            mQsColorOSMediaArtFill.setVisible(isColorOS);
+            mQsColorOSMediaArtFill.setVisible(isColorOS || isHyperOS);
         }
     }
 
