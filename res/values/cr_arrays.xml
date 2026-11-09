@@ -1294,4 +1294,32 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <string-array name="lockscreen_unlock_animation_entries">
+        <item>@string/lockscreen_unlock_animation_default</item>
+        <item>@string/lockscreen_unlock_animation_water</item>
+        <item>@string/lockscreen_unlock_animation_watercolor</item>
+        <item>@string/lockscreen_unlock_animation_glow</item>
+        <item>@string/lockscreen_unlock_animation_rainbow_glow</item>
+    </string-array>
+
+    <string-array name="lockscreen_unlock_animation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="ripple_shape_entries">
+        <item>@string/ripple_shape_circle</item>
+        <item>@string/ripple_shape_rounded_box</item>
+        <item>@string/ripple_shape_water</item>
+    </string-array>
+
+    <string-array name="ripple_shape_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

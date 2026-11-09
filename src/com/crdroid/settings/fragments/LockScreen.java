@@ -62,10 +62,17 @@ public class LockScreen extends SettingsPreferenceFragment
     private static final String KEY_FP_SUCCESS = "fp_success_vibrate";
     private static final String KEY_FP_ERROR = "fp_error_vibrate";
     private static final String KEY_FACE_ANIMATION = "face_unlock_animation";
+    private static final String KEY_UNLOCK_ANIMATION = "lockscreen_unlock_animation";
+    private static final String KEY_UNLOCK_EFFECT_HFR = "lockscreen_unlock_effect_hfr";
+    private static final String KEY_WATER_RIPPLE_FULLSCREEN = "lockscreen_water_ripple_fullscreen";
+    private static final String KEY_CHARGING_RIPPLE_SHAPE = "wireless_charging_ripple_shape";
 
     private Preference mUdfpsAnimations;
     private Preference mUdfpsIcons;
     private Preference mRippleEffect;
+    private Preference mUnlockAnimation;
+    private Preference mUnlockEffectHfr;
+    private Preference mWaterRippleFullscreen;
 
     private SwitchPreferenceCompat mSmartspace;
     private SwitchPreferenceCompat mWeather;
@@ -92,6 +99,9 @@ public class LockScreen extends SettingsPreferenceFragment
             gestCategory.removePreference(mUdfpsAnimations);
             gestCategory.removePreference(mUdfpsIcons);
             gestCategory.removePreference(mRippleEffect);
+            removePreference(findPreference(KEY_UNLOCK_ANIMATION));
+            removePreference(findPreference(KEY_UNLOCK_EFFECT_HFR));
+            removePreference(findPreference(KEY_WATER_RIPPLE_FULLSCREEN));
         } else {
             if (!Utils.isPackageInstalled(context, "com.crdroid.udfps.animations")) {
                 gestCategory.removePreference(mUdfpsAnimations);
@@ -114,6 +124,14 @@ public class LockScreen extends SettingsPreferenceFragment
             }
         }
 
+        mUnlockAnimation = findPreference(KEY_UNLOCK_ANIMATION);
+        mUnlockEffectHfr = findPreference(KEY_UNLOCK_EFFECT_HFR);
+        mWaterRippleFullscreen = findPreference(KEY_WATER_RIPPLE_FULLSCREEN);
+        if (mUnlockAnimation != null) {
+            mUnlockAnimation.setOnPreferenceChangeListener(this);
+            updateUnlockRelatedVisibility(getCurrentUnlockAnimation());
+        }
+
         mSmartspace = (SwitchPreferenceCompat) findPreference(KEY_SMARTSPACE);
         mSmartspace.setOnPreferenceChangeListener(this);
 
@@ -121,9 +139,36 @@ public class LockScreen extends SettingsPreferenceFragment
         mWeather.setOnPreferenceChangeListener(this);
     }
 
+    private static void removePreference(Preference preference) {
+        if (preference != null && preference.getParent() != null) {
+            preference.getParent().removePreference(preference);
+        }
+    }
+
+    private int getCurrentUnlockAnimation() {
+        final ContentResolver resolver = getContext().getContentResolver();
+        final int legacy = Settings.System.getIntForUser(resolver,
+                "lockscreen_water_ripple_enabled", 0, UserHandle.USER_CURRENT);
+        final int selected = Settings.System.getIntForUser(resolver,
+                KEY_UNLOCK_ANIMATION, legacy == 1 ? 1 : 0, UserHandle.USER_CURRENT);
+        return selected >= 0 && selected <= 4 ? selected : 0;
+    }
+
+    private void updateUnlockRelatedVisibility(int style) {
+        if (mUnlockEffectHfr != null) {
+            mUnlockEffectHfr.setVisible(style >= 1 && style <= 4);
+        }
+        if (mWaterRippleFullscreen != null) {
+            mWaterRippleFullscreen.setVisible(style == 1);
+        }
+    }
+
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mSmartspace) {
+        if (preference == mUnlockAnimation) {
+            updateUnlockRelatedVisibility(Integer.parseInt((String) newValue));
+            return true;
+        } else if (preference == mSmartspace) {
             mSmartspace.setChecked((Boolean)newValue);
             updateWeatherSettings();
             SystemUtils.showSystemUiRestartDialog(getContext());
@@ -149,6 +194,14 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.DOUBLE_TAP_SLEEP_LOCKSCREEN, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.ENABLE_RIPPLE_EFFECT, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.LOCKSCREEN_UNLOCK_ANIMATION, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.LOCKSCREEN_UNLOCK_EFFECT_HFR, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.LOCKSCREEN_WATER_RIPPLE_FULLSCREEN, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.WIRELESS_CHARGING_RIPPLE_SHAPE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.FP_ERROR_VIBRATE, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
