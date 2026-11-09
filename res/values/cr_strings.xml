@@ -1447,6 +1447,7 @@
     <string name="qs_panel_style_coloros" translatable="false">ColorOS</string>
     <string name="qs_panel_style_nothingos" translatable="false">NothingOS</string>
     <string name="qs_panel_style_hyperos" translatable="false">HyperOS</string>
+    <string name="qs_panel_style_axion" translatable="false">Modular</string>
 
     <!-- Dynamic island -->
     <string name="status_bar_dynamic_island_title">Dynamic island</string>
