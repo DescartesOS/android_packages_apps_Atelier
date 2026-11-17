@@ -118,6 +118,34 @@
         android:summary="@string/penguin_glass_tab_bars_summary"
         android:defaultValue="true" />
 
+    <!-- Liquid Glass: Laboratory has the style and the per-app lists -->
+    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+        android:key="penguin_liquid_glass"
+        android:icon="@drawable/ic_blur"
+        android:title="@string/liquid_glass_title"
+        android:summary="@string/liquid_glass_summary"
+        android:defaultValue="false" />
+
+    <com.crdroid.settings.preferences.SecureSettingSeekBarPreference
+        android:key="penguin_liquid_glass_refraction"
+        android:icon="@drawable/ic_blur"
+        android:title="@string/liquid_glass_refraction_title"
+        android:summary="@string/liquid_glass_refraction_summary"
+        android:dependency="penguin_liquid_glass"
+        android:defaultValue="60"
+        android:max="100"
+        settings:min="0"
+        settings:interval="5"
+        settings:units="%" />
+
+    <!-- AxionBlur for the Quick Settings glass -->
+    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+        android:key="descartes_ax_glass"
+        android:icon="@drawable/ic_blur"
+        android:title="@string/ax_glass_title"
+        android:summary="@string/ax_glass_summary"
+        android:defaultValue="true" />
+
     <!-- Rotation button -->
     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
         android:key="enable_rotation_button"

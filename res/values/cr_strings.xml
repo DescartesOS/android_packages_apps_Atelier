@@ -1912,4 +1912,12 @@ To setup Depth Wallpaper Feature:
     <string name="vehicle_motion_cues_dot_count_title">Dot Count</string>
     <string name="vehicle_motion_cues_dot_count_summary">Number of animated motion cue dots shown along the screen margins</string>
     <string name="qs_panel_style_motorola" translatable="false">Motorola HelloUI</string>
+    <string name="descartes_laboratory_title">Descartes Laboratory</string>
+    <string name="descartes_laboratory_summary">DeX, Liquid Glass, styles, experiments and more</string>
+    <string name="liquid_glass_title">Liquid Glass</string>
+    <string name="liquid_glass_summary">Turn frosted surfaces into glass that bends the light at its rim</string>
+    <string name="liquid_glass_refraction_title">Glass refraction</string>
+    <string name="liquid_glass_refraction_summary">How far the rim of the glass bends what is behind it</string>
+    <string name="ax_glass_title">Lighter Quick Settings glass</string>
+    <string name="ax_glass_summary">Blur tiles with AxionBlur, which is lighter on mid-range devices</string>
 </resources>

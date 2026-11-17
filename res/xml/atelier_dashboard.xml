@@ -61,6 +61,16 @@
             android:fragment="com.crdroid.settings.fragments.Sound" />
 
         <Preference
+            android:key="atelier_laboratory"
+            android:icon="@drawable/atelier_ic_laboratory"
+            android:title="@string/descartes_laboratory_title"
+            android:summary="@string/descartes_laboratory_summary">
+            <intent
+                android:targetPackage="com.descartes.laboratory"
+                android:targetClass="com.descartes.laboratory.LaboratoryActivity" />
+        </Preference>
+
+        <Preference
             android:key="atelier_misc"
             android:icon="@drawable/atelier_ic_misc"
             android:title="@string/misc_title"
